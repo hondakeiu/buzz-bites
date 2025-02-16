@@ -23,6 +23,5 @@ samePageLinks.forEach((anchorEl) => {
 
     smoothScrollTo(scrollTarget);
   };
-
   anchorEl.addEventListener("click", handleClick);
 });

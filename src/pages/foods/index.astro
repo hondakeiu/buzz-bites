@@ -2,12 +2,14 @@
 import Pageheader from "../../components/Pageheader.astro";
 import Partition from "../../components/Partition.astro";
 import { data } from "../../contents/meta/data";
-import { allFoods } from "../../features/foods/data";
+import { foods } from "../../features/foods/data";
 import Layout from "../../layouts/Layout.astro";
+import { formatDate } from "../../scripts/utils/calendar";
+import { getStatusHeartColor } from "../../scripts/utils/status";
 
 let allCurrent = 0;
 let allTotal = 0;
-allFoods.forEach((group) => {
+foods.forEach((group) => {
   allCurrent += group.items.filter((item) => item.date !== null).length;
   allTotal += group.items.length;
 });
@@ -20,7 +22,7 @@ allFoods.forEach((group) => {
       <div class="inner">
         <ul>
           <li>
-            <a href={`#${allFoods[0].id}`} class="item">
+            <a href={`#${foods[0].id}`} class="item">
               <div class="item__count">
                 <span class="text text--en large">{allCurrent}</span>
                 <span class="text text--en small">/{allTotal}</span>
@@ -31,7 +33,7 @@ allFoods.forEach((group) => {
             </a>
           </li>
           {
-            allFoods.map((group) => {
+            foods.map((group) => {
               const current = group.items.filter((item) => item.date !== null).length;
               const total = group.items.length;
               return (
@@ -56,13 +58,13 @@ allFoods.forEach((group) => {
       <Partition />
       <div class="inner inner--m">
         {
-          allFoods.map((group) => {
+          foods.map((group) => {
             const like = group.items.filter((item) => item.status === "好き").length;
             const normal = group.items.filter((item) => item.status === "普通").length;
             const dislike = group.items.filter((item) => item.status === "嫌い").length;
             return (
-              <section id={group.id} class="group">
-                <div class="group__heading">
+              <section id={group.id} class="ygroup group">
+                <div class="ygroup__heading group__heading">
                   <h2 class="text text--jp">{group.name}</h2>
                   <div class="group__heading__count">
                     <span class="heart heart--f heart--rf" />
@@ -73,20 +75,23 @@ allFoods.forEach((group) => {
                     <span class="text text--en">{dislike}</span>
                   </div>
                 </div>
-                <ul>
-                  {group.items.map((item) => {
-                    const date = item.date ? item.date.replace(/-/g, "/") : "-";
-                    return (
-                      <li>
-                        <div class="item">
-                          <span class:list={["heart heart--f", item.status === "好き" && "heart--rf", item.status === "普通" && "heart--of", item.status === "嫌い" && "heart--bf", !item.status && "heart--gf", "item__status"]} />
-                          <p class="text text--jp item__name">{item.name}</p>
-                          <p class="text text--en item__date">{date}</p>
-                        </div>
-                      </li>
-                    );
-                  })}
-                </ul>
+                <div class="ygroup__body group__body">
+                  <ul>
+                    {group.items.map((item) => {
+                      const date = formatDate(item.date, "/");
+                      const color = getStatusHeartColor(item.status);
+                      return (
+                        <li>
+                          <div class="yitem item">
+                            <span class:list={["heart heart--f", `heart--${color}f`, "item__status"]} />
+                            <p class="text text--jp item__name">{item.name}</p>
+                            <p class="text text--en item__date">{date}</p>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
               </section>
             );
           })
@@ -161,16 +166,6 @@ allFoods.forEach((group) => {
       .group {
         padding-top: 2rem;
         &__heading {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          background: var(--yellow);
-          height: 4rem;
-          border-radius: 9999px;
-          padding: 0 2rem;
-          h2 {
-            font-size: 1.4rem;
-          }
           &__count {
             display: flex;
             .heart {
@@ -184,32 +179,15 @@ allFoods.forEach((group) => {
             }
           }
         }
-        ul {
-          display: flex;
-          flex-direction: column;
-          margin-top: 2rem;
-          padding: 0 2rem;
-          row-gap: 1rem;
-          li {
-          }
-          .item {
-            display: flex;
-            justify-content: space-between;
-            column-gap: 1rem;
-            &__status {
-              width: 1.2rem;
-              height: 1.2rem;
-              margin-top: 0.3rem;
-            }
-            &__name {
-              font-size: 1.4rem;
-            }
-            &__date {
-              min-width: 6rem;
-              text-align: center;
-              font-size: 1rem;
-              margin-left: auto;
-              margin-top: 0.3rem;
+        &__body {
+          ul {
+            .item {
+              &__date {
+                min-width: 6rem;
+                text-align: center;
+                font-size: 1rem;
+                margin-top: 0.3rem;
+              }
             }
           }
         }

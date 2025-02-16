@@ -1,364 +1,130 @@
 import type { Category } from "./schemas";
 
-export const allFoods: Category[] = [
+export const foods: Category[] = [
   {
     name: "主食",
     id: "carbs",
     items: [
-      {
-        name: "お粥",
-        date: "2024-12-22",
-        status: "好き",
-      },
-      {
-        name: "うどん",
-        date: "2025-01-28",
-        status: "好き",
-      },
-      {
-        name: "食パン",
-        date: "2025-02-03",
-        status: "好き",
-      },
-      {
-        name: "そうめん",
-        date: "2025-01-20",
-        status: "好き",
-      },
-      {
-        name: "スパゲッティ",
-        date: null,
-        status: null,
-      },
-      {
-        name: "麩",
-        date: "2025-02-10",
-        status: "好き",
-      },
+      { name: "お粥", date: "2024-12-22", status: "好き" },
+      { name: "うどん", date: "2025-01-28", status: "好き" },
+      { name: "食パン", date: "2025-02-03", status: "好き" },
+      { name: "そうめん", date: "2025-01-20", status: "好き" },
+      { name: "スパゲッティ", date: null, status: null },
+      { name: "麩", date: "2025-02-10", status: "好き" },
     ],
   },
   {
     name: "野菜",
     id: "vegetables",
     items: [
-      {
-        name: "小松菜",
-        date: "2025-02-03",
-        status: "好き",
-      },
-      {
-        name: "ほうれん草",
-        date: "2024-12-26",
-        status: "好き",
-      },
-      {
-        name: "キャベツ",
-        date: "2025-02-09",
-        status: "好き",
-      },
-      {
-        name: "トマト",
-        date: "2025-01-27",
-        status: "好き",
-      },
-      {
-        name: "きゅうり",
-        date: "2025-01-19",
-        status: "普通",
-        note: "汁が嫌そう",
-      },
-      {
-        name: "なす",
-        date: "2025-01-20",
-        status: "好き",
-      },
-      {
-        name: "ブロッコリー",
-        date: "2025-01-26",
-        status: "好き",
-      },
-      {
-        name: "オクラ",
-        date: null,
-        status: null,
-      },
-      {
-        name: "にんじん",
-        date: "2024-12-24",
-        status: "好き",
-      },
-      {
-        name: "玉ねぎ",
-        date: "2025-02-06",
-        status: "好き",
-      },
-      {
-        name: "じゃがいも",
-        date: "2025-01-10",
-        status: "好き",
-      },
-      {
-        name: "かぼちゃ",
-        date: "2024-12-25",
-        status: "好き",
-      },
-      {
-        name: "さつまいも",
-        date: "2025-02-02",
-        status: "好き",
-      },
-      {
-        name: "とうもろこし",
-        date: "2025-01-14",
-        status: "好き",
-      },
-      {
-        name: "白菜",
-        date: "2025-01-10",
-        status: "好き",
-      },
-      {
-        name: "大根",
-        date: "2025-02-05",
-        status: "好き",
-      },
-      {
-        name: "かぶ",
-        date: "2025-02-12",
-        status: "好き",
-      },
-      {
-        name: "ズッキーニ",
-        date: null,
-        status: null,
-      },
-      {
-        name: "いんげん",
-        date: null,
-        status: null,
-      },
-      {
-        name: "里芋",
-        date: null,
-        status: null,
-      },
+      { name: "小松菜", date: "2025-02-03", status: "好き" },
+      { name: "ほうれん草", date: "2024-12-26", status: "好き" },
+      { name: "キャベツ", date: "2025-02-09", status: "好き" },
+      { name: "トマト", date: "2025-01-27", status: "好き" },
+      { name: "きゅうり", date: "2025-01-19", status: "普通", note: "汁が嫌そう" },
+      { name: "なす", date: "2025-01-20", status: "好き" },
+      { name: "ブロッコリー", date: "2025-01-26", status: "好き" },
+      { name: "オクラ", date: null, status: null },
+      { name: "にんじん", date: "2024-12-24", status: "好き" },
+      { name: "玉ねぎ", date: "2025-02-06", status: "好き" },
+      { name: "じゃがいも", date: "2025-01-10", status: "好き" },
+      { name: "かぼちゃ", date: "2024-12-25", status: "好き" },
+      { name: "さつまいも", date: "2025-02-02", status: "好き" },
+      { name: "とうもろこし", date: "2025-01-14", status: "好き" },
+      { name: "白菜", date: "2025-01-10", status: "好き" },
+      { name: "大根", date: "2025-02-05", status: "好き" },
+      { name: "かぶ", date: "2025-02-11", status: "好き" },
+      { name: "ズッキーニ", date: null, status: null },
+      { name: "いんげん", date: null, status: null },
+      { name: "里芋", date: null, status: null },
     ],
   },
   {
     name: "果物",
     id: "fruit",
     items: [
-      {
-        name: "バナナ",
-        date: "2025-01-17",
-        status: "好き",
-      },
-      {
-        name: "りんご",
-        date: "2025-02-02",
-        status: "好き",
-      },
-      {
-        name: "いちご",
-        date: "2025-01-29",
-        status: "好き",
-        note: "たまに怪しい",
-      },
-      {
-        name: "みかん",
-        date: "2025-01-21",
-        status: "嫌い",
-        note: "酸っぱいのが嫌",
-      },
-      {
-        name: "オレンジ",
-        date: null,
-        status: null,
-      },
-      {
-        name: "桃",
-        date: null,
-        status: null,
-      },
-      {
-        name: "ぶどう",
-        date: null,
-        status: null,
-      },
-      {
-        name: "スイカ",
-        date: null,
-        status: null,
-      },
-      {
-        name: "柿",
-        date: null,
-        status: null,
-      },
-      {
-        name: "デコポン",
-        date: "2025-02-11",
-        status: "嫌い",
-        note: "酸っぱいのが嫌",
-      },
-      {
-        name: "さくらんぼ",
-        date: null,
-        status: null,
-      },
-      {
-        name: "メロン",
-        date: null,
-        status: null,
-      },
+      { name: "バナナ", date: "2025-01-17", status: "好き" },
+      { name: "りんご", date: "2025-02-02", status: "好き" },
+      { name: "いちご", date: "2025-01-29", status: "好き", note: "たまに怪しい" },
+      { name: "みかん", date: "2025-01-21", status: "嫌い", note: "酸っぱいのが嫌" },
+      { name: "オレンジ", date: null, status: null },
+      { name: "桃", date: null, status: null },
+      { name: "ぶどう", date: null, status: null },
+      { name: "スイカ", date: null, status: null },
+      { name: "柿", date: null, status: null },
+      { name: "デコポン", date: "2025-02-11", status: "嫌い", note: "酸っぱいのが嫌" },
+      { name: "さくらんぼ", date: null, status: null },
+      { name: "メロン", date: null, status: null },
     ],
   },
   {
     name: "肉",
     id: "meat",
-    items: [
-      {
-        name: "ささみ",
-        date: null,
-        status: null,
-      },
-    ],
+    items: [{ name: "ささみ", date: null, status: null }],
   },
   {
     name: "魚",
     id: "fish",
     items: [
-      {
-        name: "しらす",
-        date: "2025-01-19",
-        status: "好き",
-      },
-      {
-        name: "鯛",
-        date: "2025-01-08",
-        status: "好き",
-      },
-      {
-        name: "ひらめ",
-        date: "2025-01-25",
-        status: "好き",
-      },
-      {
-        name: "鱈",
-        date: "2025-02-02",
-        status: "好き",
-      },
-      {
-        name: "ツナ（まぐろ水煮）",
-        date: null,
-        status: null,
-      },
+      { name: "しらす", date: "2025-01-19", status: "好き" },
+      { name: "鯛", date: "2025-01-08", status: "好き" },
+      { name: "ひらめ", date: "2025-01-25", status: "好き" },
+      { name: "鱈", date: "2025-02-02", status: "好き" },
+      { name: "ツナ（まぐろ水煮）", date: null, status: null },
     ],
   },
   {
     name: "豆",
     id: "beans",
     items: [
-      {
-        name: "豆腐",
-        date: "2025-01-06",
-        status: "好き",
-      },
-      {
-        name: "納豆",
-        date: null,
-        status: null,
-      },
-      {
-        name: "枝豆",
-        date: null,
-        status: null,
-      },
+      { name: "豆腐", date: "2025-01-06", status: "好き" },
+      { name: "納豆", date: null, status: null },
+      { name: "枝豆", date: null, status: null },
     ],
   },
   {
     name: "卵",
     id: "egg",
     items: [
-      {
-        name: "卵黄",
-        date: "2025-01-21",
-        status: "好き",
-      },
-      {
-        name: "卵白",
-        date: null,
-        status: null,
-      },
-      {
-        name: "全卵",
-        date: null,
-        status: null,
-      },
+      { name: "卵黄", date: "2025-01-21", status: "好き" },
+      { name: "卵白", date: null, status: null },
+      { name: "全卵", date: null, status: null },
     ],
   },
   {
     name: "乳製品",
     id: "milk",
     items: [
-      {
-        name: "粉ミルク",
-        date: "2024-07-18",
-        status: "好き",
-      },
-      {
-        name: "ヨーグルト",
-        date: "2025-02-10",
-        status: "好き",
-      },
+      { name: "粉ミルク", date: "2024-07-18", status: "好き" },
+      { name: "ヨーグルト", date: "2025-02-10", status: "好き" },
     ],
   },
   {
     name: "飲み物",
     id: "drink",
     items: [
-      {
-        name: "麦茶",
-        date: "2024-12-07",
-        status: "好き",
-      },
-      {
-        name: "リンゴジュース",
-        date: "2025-02-12",
-        status: "好き",
-      },
+      { name: "お湯", date: "2025-01-20", status: "好き" },
+      { name: "麦茶", date: "2024-12-07", status: "好き" },
+      { name: "リンゴジュース", date: "2025-02-12", status: "好き" },
     ],
   },
   {
     name: "味付け",
     id: "flavoring",
     items: [
-      {
-        name: "和風だし",
-        date: "2024-12-26",
-        status: "好き",
-      },
-      {
-        name: "きなこ",
-        date: "2025-01-23",
-        status: "好き",
-      },
-      {
-        name: "コンソメ",
-        date: null,
-        status: null,
-      },
+      { name: "和風だし", date: "2024-12-26", status: "好き" },
+      { name: "きなこ", date: "2025-01-23", status: "好き" },
+      { name: "コンソメ", date: null, status: null },
     ],
+  },
+  {
+    name: "おやつ",
+    id: "snack",
+    items: [{ name: "おこめぼー", date: "2025-02-12", status: "好き" }],
   },
   {
     name: "その他",
     id: "others",
-    items: [
-      {
-        name: "片栗粉",
-        date: "2025-01-24",
-        status: "好き",
-      },
-    ],
+    items: [{ name: "片栗粉", date: "2025-01-24", status: "好き" }],
   },
 ];

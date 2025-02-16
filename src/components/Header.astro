@@ -1,3 +1,9 @@
+---
+import { getTodaySectionId } from "../scripts/utils/calendar";
+
+const today = getTodaySectionId();
+---
+
 <header class="header">
   <div class="inner inner--l">
     <ul>
@@ -14,13 +20,13 @@
         </a>
       </li>
       <li>
-        <a href="/buzz-bites/progress/">
+        <a href="/buzz-bites/schedule/">
           <span class="heart heart--ys"></span>
           <span class="text text--jp">目安量</span>
         </a>
       </li>
       <li>
-        <a href="/buzz-bites/menu/">
+        <a href={`/buzz-bites/menu/#${today}`}>
           <span class="heart heart--ys"></span>
           <span class="text text--jp">献立</span>
         </a>
@@ -65,8 +71,8 @@
 
   body:has(.home) .header a[href="/buzz-bites/"],
   body:has(.foods) .header a[href="/buzz-bites/foods/"],
-  body:has(.progress) .header a[href="/buzz-bites/progress/"],
-  body:has(.menu) .header a[href="/buzz-bites/menu/"] {
+  body:has(.schedule) .header a[href="/buzz-bites/schedule/"],
+  body:has(.menu) .header a[href^="/buzz-bites/menu/"] {
     .heart {
       background-image: url("/buzz-bites/images/heart_rs.svg");
     }

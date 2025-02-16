@@ -17,8 +17,8 @@ export const data: { [key in string]: Meta } = {
     title: "食材",
     description: "文ちゃんが食べた食材リスト",
   },
-  progress: {
-    name: "progress",
+  schedule: {
+    name: "schedule",
     title: "目安量",
     description: "文ちゃんが食べるご飯の目安量",
   },
