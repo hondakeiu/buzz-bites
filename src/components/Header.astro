@@ -1,9 +1,3 @@
----
-import { getTodaySectionId } from "../scripts/utils/calendar";
-
-const today = getTodaySectionId();
----
-
 <header class="header">
   <div class="inner inner--l">
     <ul>
@@ -26,7 +20,7 @@ const today = getTodaySectionId();
         </a>
       </li>
       <li>
-        <a href={`/buzz-bites/menu/#${today}`}>
+        <a id="menu-link">
           <span class="heart heart--ys"></span>
           <span class="text text--jp">献立</span>
         </a>
@@ -78,3 +72,13 @@ const today = getTodaySectionId();
     }
   }
 </style>
+
+<script>
+  import { getTodaySectionId } from "../scripts/utils/calendar";
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuLink = document.querySelector(".header #menu-link")!;
+    const today = getTodaySectionId();
+    menuLink.setAttribute("href", `/buzz-bites/menu/#${today}`);
+  });
+</script>
