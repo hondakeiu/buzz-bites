@@ -1,0 +1,13 @@
+---
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<div class="pageheader">
+  <div class="inner inner--l">
+    <h1 class="text text--jp">{text}</h1>
+  </div>
+</div>

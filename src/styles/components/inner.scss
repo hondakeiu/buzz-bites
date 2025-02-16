@@ -1,0 +1,11 @@
+.inner {
+  width: 100%;
+  max-width: 39rem;
+  margin: 0 auto;
+  &--l {
+    padding: 0 2rem;
+  }
+  &--m {
+    padding: 0 3rem;
+  }
+}

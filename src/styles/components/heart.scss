@@ -1,0 +1,31 @@
+.heart {
+  display: block;
+  flex-shrink: 0;
+  &--ys {
+    background: url("/images/heart_ys.svg") center / contain no-repeat;
+  }
+  &--rs {
+    background: url("/images/heart_rs.svg") center / contain no-repeat;
+  }
+  &--ps {
+    background: url("/images/heart_ps.svg") center / contain no-repeat;
+  }
+  &--f {
+    mask: url("/images/heart_f.svg") center / contain no-repeat;
+  }
+  &--yf {
+    background: var(--yellow);
+  }
+  &--rf {
+    background: var(--red);
+  }
+  &--of {
+    background: var(--orange);
+  }
+  &--bf {
+    background: var(--blue);
+  }
+  &--gf {
+    background: var(--gray);
+  }
+}

@@ -1,0 +1,75 @@
+---
+import { type Meta, sitename } from "../contents/meta/data";
+import "../styles/global.scss";
+import Header from "../components/Header.astro";
+
+interface Props {
+  meta: Meta;
+}
+
+const { meta } = Astro.props;
+
+const pagetitle = `${meta.title}${meta.name !== "home" ? ` | ${sitename}` : ""}`;
+const ogtype = meta.name === "home" ? "website" : "article";
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/images/static/favicon.svg" />
+    <title>{pagetitle}</title>
+    <meta name="description" content={meta.description} />
+    <meta property="og:site_name" content={sitename} />
+    <meta property="og:title" content={pagetitle} />
+    <!-- <meta property="og:image" content="https://hondakeiu.github.io/buzz-bites/images/static/ogimg.png" /> -->
+    <meta property="og:description" content={meta.description} />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content={ogtype} />
+    <meta property="og:locale" content="ja_JP" />
+    <!-- <link rel="apple-touch-icon" href="/images/static/apple-touch-icon.png" /> -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "ech6cwb",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        // @ts-ignore
+        tk.onload = tk.onreadystatechange = function () {
+          // @ts-ignore
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            // @ts-ignore
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        // @ts-ignore
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
