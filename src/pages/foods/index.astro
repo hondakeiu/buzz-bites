@@ -20,7 +20,7 @@ allFoods.forEach((group) => {
       <div class="inner">
         <ul>
           <li>
-            <a href="#" class="item">
+            <a href={`#${allFoods[0].id}`} class="item">
               <div class="item__count">
                 <span class="text text--en large">{allCurrent}</span>
                 <span class="text text--en small">/{allTotal}</span>
@@ -156,10 +156,10 @@ allFoods.forEach((group) => {
       .inner {
         display: flex;
         flex-direction: column;
-        row-gap: 2rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
       }
       .group {
+        padding-top: 2rem;
         &__heading {
           display: flex;
           align-items: center;
