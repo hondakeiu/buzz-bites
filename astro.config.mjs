@@ -4,8 +4,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://hondakeiu.github.io",
-  base: "/buzz-bites",
+  site: "https://hondakeiu.github.io/buzz-bites",
   vite: {
     css: {
       preprocessorOptions: {
