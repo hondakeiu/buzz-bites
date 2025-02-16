@@ -2,16 +2,176 @@
 import Pageheader from "../../components/Pageheader.astro";
 import { data } from "../../contents/meta/data";
 import Layout from "../../layouts/Layout.astro";
+import { schedules } from "../../features/schedule/data";
+import { getStageName } from "../../scripts/utils/calendar";
+import { getFoodStatus, getRecipeStatus, getStatusHeartColor } from "../../scripts/utils/status";
+import { checkNewSchedule } from "../../scripts/utils/tag";
 ---
 
 <Layout meta={data["schedule"]}>
   <div class="schedule">
-    <Pageheader text="目安量" />
+    <Pageheader text="献立" />
+    <div class="schedule__body">
+      <div class="inner inner--m">
+        {
+          schedules.map((group) => {
+            const week = group.week;
+            const id = "week-" + week;
+            return (
+              <section id={id} class="week">
+                <h2 class="week__heading">
+                  <span class="text text--jp week__heading__stage">{getStageName(week)}</span>
+                  <span class="text text--en week__heading__week">{week}</span>
+                </h2>
+                <div class="week__body">
+                  {group.meals.map((meal) => {
+                    return (
+                      <div class="ygroup meal">
+                        <div class="ygroup__heading meal__heading">
+                          <h3 class="text text--jp">{meal.name}</h3>
+                          {meal.total && <p class="text text--en">{meal.total}</p>}
+                        </div>
+                        <div class="ygroup__body meal__body">
+                          <ul>
+                            {meal.items.map((item) => {
+                              return (
+                                <li>
+                                  <div class="group">
+                                    <div class="yitem group__item">
+                                      <span class="heart heart--f heart--rf" />
+                                      <p class="text text--jp group__item__name">{item.name}</p>
+                                      {item.amount && <p class="text text--en group__item__amount">{item.amount}</p>}
+                                    </div>
+                                    {item.variants && (
+                                      <ul>
+                                        {item.variants.map((variant) => {
+                                          return (
+                                            <li>
+                                              <div class="ychild child">
+                                                <p class="text text--jp child__name">
+                                                  {variant.name}
+                                                  {variant.tag && <span class="text text--jp child__tag">{variant.tag}</span>}
+                                                </p>
+                                                <p class="text text--en child__amount">{variant.amount}</p>
+                                              </div>
+                                            </li>
+                                          );
+                                        })}
+                                      </ul>
+                                    )}
+                                  </div>
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        </div>
+                      </div>
+                    );
+                  })}
+                  {group.stock && (
+                    <div class="ygroup meal">
+                      <div class="ygroup__heading meal__heading">
+                        <h3 class="text text--jp">冷凍ストック</h3>
+                      </div>
+                      <div class="ygroup__body meal__body">
+                        <ul>
+                          {group.stock.map((item) => {
+                            const status = item.recipe ? getRecipeStatus(item.name) : getFoodStatus(item.name);
+                            const color = getStatusHeartColor(status);
+                            const tag = checkNewSchedule(item.name, week, item.recipe ? "recipe" : "food");
+                            return (
+                              <li>
+                                <div class="group">
+                                  <div class="yitem group__item">
+                                    <span class:list={["heart heart--f", `heart--${color}f`, "item__status"]} />
+                                    <p class="text text--jp group__item__name">
+                                      {item.name}
+                                      {tag && <span class="text text--jp group__item__tag">{tag}</span>}
+                                    </p>
+                                    <p class="text text--en group__item__amount">{item.amount}</p>
+                                  </div>
+                                </div>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </section>
+            );
+          })
+        }
+      </div>
+    </div>
   </div>
 </Layout>
 
 <style lang="scss">
   .schedule {
     padding: calc(6rem + 2rem) 0 calc(6rem + 4rem);
+    &__body {
+      .inner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+      }
+      .week {
+        padding-top: 3rem;
+        &__heading {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 1rem;
+          &__stage {
+            background: var(--gray);
+            border-radius: 9999px;
+            font-size: 1.2rem;
+            padding: 0.3rem 1rem;
+          }
+          &__week {
+            display: flex;
+            font-size: 1.4rem;
+            letter-spacing: 0.08em;
+            span {
+              margin-left: 0.3rem;
+            }
+          }
+        }
+        &__body {
+          margin-top: 3rem;
+          display: flex;
+          flex-direction: column;
+          row-gap: 2rem;
+          .meal {
+            &__heading {
+              p {
+                font-size: 1.2rem;
+              }
+            }
+            &__body {
+              .group__item,
+              .child {
+                &__tag {
+                  display: inline-flex;
+                  justify-content: center;
+                  align-items: center;
+                  border-radius: 9999px;
+                  border: 0.1rem solid var(--black);
+                  font-size: 1rem;
+                  margin-left: 0.2rem;
+                  vertical-align: 0.15rem;
+                  padding: 0.15rem 0.5rem;
+                }
+                &__amount {
+                  font-size: 1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 </style>

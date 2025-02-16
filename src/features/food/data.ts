@@ -5,7 +5,7 @@ export const foods: Category[] = [
     name: "主食",
     id: "carbs",
     items: [
-      { name: "お粥", date: "2024-12-22", status: "好き" },
+      { name: "お米", date: "2024-12-22", status: "好き" },
       { name: "うどん", date: "2025-01-28", status: "好き" },
       { name: "食パン", date: "2025-02-03", status: "好き" },
       { name: "そうめん", date: "2025-01-20", status: "好き" },
@@ -20,7 +20,7 @@ export const foods: Category[] = [
       { name: "小松菜", date: "2025-02-03", status: "好き" },
       { name: "ほうれん草", date: "2024-12-26", status: "好き" },
       { name: "キャベツ", date: "2025-02-09", status: "好き" },
-      { name: "トマト", date: "2025-01-27", status: "好き" },
+      { name: "ミニトマト", date: "2025-01-27", status: "好き" },
       { name: "きゅうり", date: "2025-01-19", status: "普通", note: "汁が嫌そう" },
       { name: "なす", date: "2025-01-20", status: "好き" },
       { name: "ブロッコリー", date: "2025-01-26", status: "好き" },
@@ -88,11 +88,10 @@ export const foods: Category[] = [
     items: [
       { name: "卵黄", date: "2025-01-21", status: "好き" },
       { name: "卵白", date: null, status: null },
-      { name: "全卵", date: null, status: null },
     ],
   },
   {
-    name: "乳製品",
+    name: "乳",
     id: "milk",
     items: [
       { name: "粉ミルク", date: "2024-07-18", status: "好き" },
@@ -105,7 +104,7 @@ export const foods: Category[] = [
     items: [
       { name: "お湯", date: "2025-01-20", status: "好き" },
       { name: "麦茶", date: "2024-12-07", status: "好き" },
-      { name: "リンゴジュース", date: "2025-02-12", status: "好き" },
+      { name: "りんごジュース", date: "2025-02-12", status: "好き" },
     ],
   },
   {
@@ -113,14 +112,19 @@ export const foods: Category[] = [
     id: "flavoring",
     items: [
       { name: "和風だし", date: "2024-12-26", status: "好き" },
-      { name: "きなこ", date: "2025-01-23", status: "好き" },
       { name: "コンソメ", date: null, status: null },
+      { name: "鰹節おかゆ", date: null, status: null },
+      { name: "きなこ", date: "2025-01-23", status: "好き" },
     ],
   },
   {
     name: "おやつ",
     id: "snack",
-    items: [{ name: "おこめぼー", date: "2025-02-12", status: "好き" }],
+    items: [
+      { name: "おこめぼー", date: "2025-02-12", status: "好き" },
+      { name: "おこめぼー赤", date: null, status: null },
+      { name: "たまごボーロ", date: null, status: null },
+    ],
   },
   {
     name: "その他",

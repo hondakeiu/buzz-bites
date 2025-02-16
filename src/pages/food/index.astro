@@ -2,7 +2,7 @@
 import Pageheader from "../../components/Pageheader.astro";
 import Partition from "../../components/Partition.astro";
 import { data } from "../../contents/meta/data";
-import { foods } from "../../features/foods/data";
+import { foods } from "../../features/food/data";
 import Layout from "../../layouts/Layout.astro";
 import { formatDate } from "../../scripts/utils/calendar";
 import { getStatusHeartColor } from "../../scripts/utils/status";
@@ -15,10 +15,10 @@ foods.forEach((group) => {
 });
 ---
 
-<Layout meta={data["foods"]}>
-  <div class="foods">
+<Layout meta={data["food"]}>
+  <div class="food">
     <Pageheader text="食材" />
-    <div class="foods__category">
+    <div class="food__category">
       <div class="inner">
         <ul>
           <li>
@@ -54,7 +54,7 @@ foods.forEach((group) => {
         </ul>
       </div>
     </div>
-    <div class="foods__list">
+    <div class="food__list">
       <Partition />
       <div class="inner inner--m">
         {
@@ -102,7 +102,7 @@ foods.forEach((group) => {
 </Layout>
 
 <style lang="scss">
-  .foods {
+  .food {
     padding: calc(6rem + 2rem) 0 calc(6rem + 4rem);
     &__category {
       .inner {

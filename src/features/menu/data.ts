@@ -9,7 +9,7 @@ export const menus: Menu[] = [
         total: "60g",
         items: [
           [
-            { name: "お粥", amount: "30g" },
+            { name: "おかゆ", amount: "30g", recipe: true },
             { name: "かぼちゃ", amount: "5g" },
             { name: "卵黄", amount: "10g" },
           ],
@@ -24,7 +24,7 @@ export const menus: Menu[] = [
         total: "30g",
         items: [
           [
-            { name: "お粥", amount: "10g" },
+            { name: "おかゆ", amount: "10g", recipe: true },
             { name: "麩", amount: "5g" },
             { name: "にんじん", amount: "5g" },
             { name: "小松菜", amount: "5g" },
@@ -46,7 +46,7 @@ export const menus: Menu[] = [
         total: "60g",
         items: [
           [
-            { name: "お粥", amount: "30g" },
+            { name: "おかゆ", amount: "30g", recipe: true },
             { name: "じゃがいも", amount: "5g" },
             { name: "豆腐", amount: "10g" },
           ],
@@ -61,7 +61,7 @@ export const menus: Menu[] = [
         total: "30g",
         items: [
           [
-            { name: "お粥", amount: "15g" },
+            { name: "おかゆ", amount: "15g", recipe: true },
             { name: "小松菜", amount: "5g" },
             { name: "かぶ", amount: "5g" },
             { name: "鯛", amount: "5g" },
@@ -79,15 +79,12 @@ export const menus: Menu[] = [
         total: "60g",
         items: [
           [
-            { name: "お粥", amount: "30g" },
+            { name: "おかゆ", amount: "30g", recipe: true },
             { name: "とうもろこし", amount: "5g" },
             { name: "キャベツ", amount: "5g" },
             { name: "豆腐", amount: "10g" },
           ],
-          [
-            { name: "ヨーグルト", amount: "10g" },
-            { name: "きなこ", amount: "", unit: "少々" },
-          ],
+          [{ name: "きなこヨーグルト", amount: "10g", recipe: true }],
         ],
       },
       {
@@ -95,7 +92,7 @@ export const menus: Menu[] = [
         total: "30g",
         items: [
           [
-            { name: "お粥", amount: "10g" },
+            { name: "おかゆ", amount: "10g", recipe: true },
             { name: "麩", amount: "5g" },
             { name: "小松菜", amount: "5g" },
           ],
@@ -107,8 +104,7 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "おこめぼー", amount: "2", unit: "本" },
-            { name: "お湯", amount: "10ml" },
-            { name: "リンゴジュース", amount: "10ml" },
+            { name: "薄めりんごジュース", amount: "20ml", recipe: true },
           ],
         ],
       },
@@ -122,7 +118,7 @@ export const menus: Menu[] = [
         total: "55g",
         items: [
           [
-            { name: "お粥", amount: "30g" },
+            { name: "おかゆ", amount: "30g", recipe: true },
             { name: "にんじん", amount: "5g" },
             { name: "かぶ", amount: "5g" },
             { name: "卵黄", amount: "15g" },
@@ -134,7 +130,7 @@ export const menus: Menu[] = [
         total: "30g",
         items: [
           [
-            { name: "お粥", amount: "15g" },
+            { name: "おかゆ", amount: "15g", recipe: true },
             { name: "小松菜", amount: "5g" },
             { name: "豆腐", amount: "5g" },
           ],
@@ -152,13 +148,12 @@ export const menus: Menu[] = [
         total: "60g",
         items: [
           [
-            { name: "お粥", amount: "30g" },
+            { name: "おかゆ", amount: "30g", recipe: true },
             { name: "かぼちゃ", amount: "5g" },
           ],
           [
             { name: "いちご", amount: "5g" },
-            { name: "ヨーグルト", amount: "20g" },
-            { name: "きなこ", amount: "", unit: "少々" },
+            { name: "きなこヨーグルト", amount: "20g", recipe: true },
           ],
         ],
       },
@@ -167,7 +162,7 @@ export const menus: Menu[] = [
         total: "30g",
         items: [
           [
-            { name: "お粥", amount: "10g" },
+            { name: "おかゆ", amount: "10g", recipe: true },
             { name: "麩", amount: "5g" },
             { name: "小松菜", amount: "5g" },
             { name: "キャベツ", amount: "5g" },
@@ -177,12 +172,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [
-          [
-            { name: "お湯", amount: "20ml" },
-            { name: "リンゴジュース", amount: "20ml" },
-          ],
-        ],
+        items: [[{ name: "薄めりんごジュース", amount: "40ml", recipe: true }]],
       },
     ],
   },
@@ -194,7 +184,7 @@ export const menus: Menu[] = [
         total: "55g",
         items: [
           [
-            { name: "お粥", amount: "30g" },
+            { name: "おかゆ", amount: "30g", recipe: true },
             { name: "小松菜", amount: "5g" },
             { name: "とうもろこし", amount: "5g" },
             { name: "豆腐", amount: "15g" },
@@ -206,7 +196,7 @@ export const menus: Menu[] = [
         total: "30g",
         items: [
           [
-            { name: "お粥", amount: "15g" },
+            { name: "おかゆ", amount: "15g", recipe: true },
             { name: "キャベツ", amount: "5g" },
             { name: "鯛", amount: "5g" },
           ],
@@ -215,12 +205,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [
-          [
-            { name: "お湯", amount: "10ml" },
-            { name: "リンゴジュース", amount: "10ml" },
-          ],
-        ],
+        items: [[{ name: "薄めりんごジュース", amount: "20ml", recipe: true }]],
       },
     ],
     memo: ["デコポン半分残し"],
@@ -233,14 +218,11 @@ export const menus: Menu[] = [
         total: "60g",
         items: [
           [
-            { name: "お粥", amount: "30g" },
+            { name: "おかゆ", amount: "30g", recipe: true },
             { name: "にんじん", amount: "5g" },
             { name: "小松菜", amount: "5g" },
           ],
-          [
-            { name: "ヨーグルト", amount: "20g" },
-            { name: "きなこ", amount: "", unit: "少々" },
-          ],
+          [{ name: "きなこヨーグルト", amount: "20g", recipe: true }],
         ],
       },
       {
@@ -248,7 +230,7 @@ export const menus: Menu[] = [
         total: "30g",
         items: [
           [
-            { name: "お粥", amount: "15g" },
+            { name: "おかゆ", amount: "15g", recipe: true },
             { name: "じゃがいも", amount: "5g" },
             { name: "かぶ", amount: "5g" },
             { name: "鯛", amount: "5g" },
@@ -265,10 +247,11 @@ export const menus: Menu[] = [
         total: "85g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "にんじん", amount: "10g" },
             { name: "ブロッコリー", amount: "10g" },
             { name: "卵黄", amount: "15g" },
+            { name: "コンソメ", amount: "", unit: "少々" },
           ],
         ],
       },
@@ -277,20 +260,19 @@ export const menus: Menu[] = [
         total: "100g",
         items: [
           [
-            { name: "お粥", amount: "25g" },
+            { name: "鰹節おかゆ", amount: "25g", recipe: true },
             { name: "うどん", amount: "25g" },
             { name: "小松菜", amount: "10g" },
             { name: "しらす", amount: "5g" },
           ],
           [
             { name: "バナナ", amount: "10g" },
-            { name: "ヨーグルト", amount: "25g" },
-            { name: "きなこ", amount: "", unit: "少々" },
+            { name: "きなこヨーグルト", amount: "25g", recipe: true },
           ],
         ],
       },
     ],
-    memo: ["今日から離乳食中期 🍚", "卵黄OK👌🏻"],
+    memo: ["今日から離乳食中期 🍚", "卵黄チェック完了👌🏻"],
   },
   {
     date: "2025-02-18",
@@ -300,15 +282,12 @@ export const menus: Menu[] = [
         total: "100g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
-            { name: "トマト", amount: "10g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
+            { name: "ミニトマト", amount: "10g" },
             { name: "とうもろこし", amount: "10g" },
             { name: "ささみ", amount: "5g" },
           ],
-          [
-            { name: "ヨーグルト", amount: "25g" },
-            { name: "きなこ", amount: "", unit: "少々" },
-          ],
+          [{ name: "きなこヨーグルト", amount: "25g", recipe: true }],
         ],
       },
       {
@@ -316,7 +295,7 @@ export const menus: Menu[] = [
         total: "90g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "小松菜", amount: "10g" },
             { name: "しらす", amount: "5g" },
           ],
@@ -336,14 +315,13 @@ export const menus: Menu[] = [
         total: "100g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "小松菜", amount: "10g" },
             { name: "ささみ", amount: "5g" },
           ],
           [
             { name: "バナナ", amount: "10g" },
-            { name: "ヨーグルト", amount: "25g" },
-            { name: "きなこ", amount: "", unit: "少々" },
+            { name: "きなこヨーグルト", amount: "25g", recipe: true },
           ],
         ],
       },
@@ -352,7 +330,7 @@ export const menus: Menu[] = [
         total: "90g",
         items: [
           [
-            { name: "お粥", amount: "25g" },
+            { name: "鰹節おかゆ", amount: "25g", recipe: true },
             { name: "うどん", amount: "25g" },
             { name: "ツナ（まぐろ水煮）", amount: "5g" },
             { name: "枝豆", amount: "15g" },
@@ -373,7 +351,7 @@ export const menus: Menu[] = [
         total: "86g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "にんじん", amount: "10g" },
             { name: "小松菜", amount: "10g" },
             { name: "卵黄", amount: "15g" },
@@ -386,8 +364,8 @@ export const menus: Menu[] = [
         total: "90g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
-            { name: "トマト", amount: "10g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
+            { name: "ミニトマト", amount: "10g" },
             { name: "ツナ（まぐろ水煮）", amount: "5g" },
           ],
           [
@@ -406,15 +384,12 @@ export const menus: Menu[] = [
         total: "100g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "ブロッコリー", amount: "10g" },
             { name: "かぼちゃ", amount: "10g" },
             { name: "ささみ", amount: "5g" },
           ],
-          [
-            { name: "ヨーグルト", amount: "25g" },
-            { name: "きなこ", amount: "", unit: "少々" },
-          ],
+          [{ name: "きなこヨーグルト", amount: "25g", recipe: true }],
         ],
       },
       {
@@ -422,7 +397,7 @@ export const menus: Menu[] = [
         total: "90g",
         items: [
           [
-            { name: "お粥", amount: "25g" },
+            { name: "鰹節おかゆ", amount: "25g", recipe: true },
             { name: "うどん", amount: "25g" },
             { name: "小松菜", amount: "10g" },
             { name: "しらす", amount: "5g" },
@@ -443,14 +418,13 @@ export const menus: Menu[] = [
         total: "100g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "小松菜", amount: "10g" },
             { name: "ささみ", amount: "5g" },
           ],
           [
             { name: "バナナ", amount: "10g" },
-            { name: "ヨーグルト", amount: "25g" },
-            { name: "きなこ", amount: "", unit: "少々" },
+            { name: "きなこヨーグルト", amount: "25g", recipe: true },
           ],
         ],
       },
@@ -459,7 +433,7 @@ export const menus: Menu[] = [
         total: "90g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "にんじん", amount: "10g" },
             { name: "ツナ（まぐろ水煮）", amount: "5g" },
           ],
@@ -479,7 +453,7 @@ export const menus: Menu[] = [
         total: "90g",
         items: [
           [
-            { name: "お粥", amount: "50g" },
+            { name: "鰹節おかゆ", amount: "50g", recipe: true },
             { name: "小松菜", amount: "10g" },
             { name: "じゃがいも", amount: "10g" },
             { name: "しらす", amount: "5g" },
@@ -492,9 +466,9 @@ export const menus: Menu[] = [
         total: "85g",
         items: [
           [
-            { name: "お粥", amount: "25g" },
+            { name: "鰹節おかゆ", amount: "25g", recipe: true },
             { name: "うどん", amount: "25g" },
-            { name: "トマト", amount: "10g" },
+            { name: "ミニトマト", amount: "10g" },
             { name: "ブロッコリー", amount: "10g" },
             { name: "卵黄", amount: "15g" },
           ],

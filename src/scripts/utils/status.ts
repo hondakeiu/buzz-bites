@@ -1,9 +1,20 @@
-import { foods } from "../../features/foods/data";
-import type { Category } from "../../features/foods/schemas";
+import { foods } from "../../features/food/data";
+import type { Category } from "../../features/food/schemas";
+import { recipes } from "../../features/recipe/data";
 
 export const getFoodStatus = (foodName: string) => {
   for (const category of foods) {
     const foundItem = category.items.find((item) => item.name === foodName);
+    if (foundItem) {
+      return foundItem.status;
+    }
+  }
+  return null;
+};
+
+export const getRecipeStatus = (recipeName: string) => {
+  for (const category of recipes) {
+    const foundItem = category.items.find((item) => item.name === recipeName);
     if (foundItem) {
       return foundItem.status;
     }

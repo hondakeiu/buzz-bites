@@ -8,8 +8,26 @@
     height: 1.2rem;
     margin-top: 0.3rem;
   }
-  p:first-of-type {
+  > p:first-of-type {
     font-size: 1.4rem;
     margin-right: auto;
+  }
+}
+
+.yitem + ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.7rem;
+  row-gap: 0.7rem;
+  padding-left: 3.6rem;
+  .ychild {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 1rem;
+    > p:first-of-type {
+      font-size: 1.4rem;
+      margin-right: auto;
+    }
   }
 }

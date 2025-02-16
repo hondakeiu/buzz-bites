@@ -8,13 +8,19 @@
         </a>
       </li>
       <li>
-        <a href="/buzz-bites/foods/">
+        <a href="/buzz-bites/food/">
           <span class="heart heart--ys"></span>
           <span class="text text--jp">食材</span>
         </a>
       </li>
       <li>
-        <a href="/buzz-bites/schedule/">
+        <a href="/buzz-bites/recipe/">
+          <span class="heart heart--ys"></span>
+          <span class="text text--jp">料理</span>
+        </a>
+      </li>
+      <li>
+        <a id="schedule-link">
           <span class="heart heart--ys"></span>
           <span class="text text--jp">目安量</span>
         </a>
@@ -64,8 +70,9 @@
   }
 
   body:has(.home) .header a[href="/buzz-bites/"],
-  body:has(.foods) .header a[href="/buzz-bites/foods/"],
-  body:has(.schedule) .header a[href="/buzz-bites/schedule/"],
+  body:has(.food) .header a[href="/buzz-bites/food/"],
+  body:has(.recipe) .header a[href="/buzz-bites/recipe/"],
+  body:has(.schedule) .header a[href^="/buzz-bites/schedule/"],
   body:has(.menu) .header a[href^="/buzz-bites/menu/"] {
     .heart {
       background-image: url("/buzz-bites/images/heart_rs.svg");
@@ -75,10 +82,16 @@
 
 <script>
   import { getTodaySectionId } from "../scripts/utils/calendar";
+  import { getWeekName } from "../scripts/utils/calendar";
 
   document.addEventListener("DOMContentLoaded", () => {
     const menuLink = document.querySelector(".header #menu-link")!;
+    const scheduleLink = document.querySelector(".header #schedule-link")!;
+
     const today = getTodaySectionId();
+    const week = getWeekName();
+
     menuLink.setAttribute("href", `/buzz-bites/menu/#${today}`);
+    scheduleLink.setAttribute("href", `/buzz-bites/schedule/#week-${week}`);
   });
 </script>

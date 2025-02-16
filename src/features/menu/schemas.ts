@@ -14,4 +14,5 @@ export type Item = {
   name: string;
   amount: string;
   unit?: string;
+  recipe?: boolean;
 };

@@ -2,12 +2,12 @@
 import Pageheader from "../../components/Pageheader.astro";
 import Partition from "../../components/Partition.astro";
 import { data } from "../../contents/meta/data";
-import { foods } from "../../features/foods/data";
+import { foods } from "../../features/food/data";
 import { menus } from "../../features/menu/data";
 import Layout from "../../layouts/Layout.astro";
 import { formatDate, getWeekName, getYoubi } from "../../scripts/utils/calendar";
-import { getFoodStatus, getStatusHeartColor } from "../../scripts/utils/status";
-import { checkNewFood } from "../../scripts/utils/tag";
+import { getFoodStatus, getRecipeStatus, getStatusHeartColor } from "../../scripts/utils/status";
+import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
 ---
 
 <Layout meta={data["menu"]}>
@@ -43,9 +43,9 @@ import { checkNewFood } from "../../scripts/utils/tag";
                               <>
                                 <ul>
                                   {group.map((item) => {
-                                    const status = getFoodStatus(item.name);
+                                    const status = item.recipe ? getRecipeStatus(item.name) : getFoodStatus(item.name);
                                     const color = getStatusHeartColor(status);
-                                    const tag = checkNewFood(item.name, today);
+                                    const tag = item.recipe ? checkNewRecipe(item.name, today) : checkNewFood(item.name, today);
                                     return (
                                       <li>
                                         <div class="yitem item">

@@ -12,10 +12,15 @@ export const data: { [key in string]: Meta } = {
     title: sitename,
     description: "文ちゃんの離乳食の記録",
   },
-  foods: {
-    name: "foods",
+  food: {
+    name: "food",
     title: "食材",
     description: "文ちゃんが食べた食材リスト",
+  },
+  recipe: {
+    name: "recipe",
+    title: "料理",
+    description: "文ちゃんが食べた料理のリスト",
   },
   schedule: {
     name: "schedule",
