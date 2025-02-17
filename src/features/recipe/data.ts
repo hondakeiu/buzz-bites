@@ -6,7 +6,7 @@ export const recipes: Category[] = [
     id: "main",
     items: [
       { name: "おかゆ", date: "2024-12-22", status: "好き", ingredients: ["お米"] },
-      { name: "鰹節おかゆ", date: null, status: null, ingredients: ["お米", "鰹節"] },
+      { name: "鰹節おかゆ", date: "2025-02-17", status: "好き", ingredients: ["お米", "鰹節"] },
     ],
   },
   {
