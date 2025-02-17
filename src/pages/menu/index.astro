@@ -20,6 +20,7 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
             const today = group.date;
             const week = getWeekName(today);
             const id = "date-" + formatDate(today, "");
+            const itemsMemory = new Set();
             return (
               <section id={id} class="day">
                 <h2 class="day__heading">
@@ -45,7 +46,11 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
                                   {group.map((item) => {
                                     const status = item.recipe ? getRecipeStatus(item.name) : getFoodStatus(item.name);
                                     const color = getStatusHeartColor(status);
-                                    const tag = item.recipe ? checkNewRecipe(item.name, today) : checkNewFood(item.name, today);
+                                    let tag = "";
+                                    if (!itemsMemory.has(item.name)) {
+                                      itemsMemory.add(item.name);
+                                      tag = (item.recipe ? checkNewRecipe(item.name, today) : checkNewFood(item.name, today)) || "";
+                                    }
                                     return (
                                       <li>
                                         <div class="yitem item">
