@@ -81,6 +81,7 @@
 </style>
 
 <script>
+  import { anchorLink } from "../scripts/anchorLink";
   import { getTodaySectionId } from "../scripts/utils/calendar";
   import { getWeekName } from "../scripts/utils/calendar";
 
@@ -93,5 +94,7 @@
 
     menuLink.setAttribute("href", `/buzz-bites/menu/#${today}`);
     scheduleLink.setAttribute("href", `/buzz-bites/schedule/#week-${week}`);
+
+    anchorLink();
   });
 </script>
