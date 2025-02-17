@@ -51,8 +51,8 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "10g" },
           ],
           [
-            { name: "ヨーグルト", amount: "10g" },
             { name: "デコポン", amount: "5g" },
+            { name: "ヨーグルト", amount: "10g" },
           ],
         ],
       },
