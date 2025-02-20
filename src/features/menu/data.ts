@@ -341,6 +341,15 @@ export const menus: Menu[] = [
           ],
         ],
       },
+      {
+        name: "その他",
+        items: [
+          [
+            { name: "おこめぼー", amount: "1", unit: "本" },
+            { name: "ジャスミン茶", amount: "", unit: "少々" },
+          ],
+        ],
+      },
     ],
   },
   {
@@ -373,6 +382,10 @@ export const menus: Menu[] = [
             { name: "納豆", amount: "15g" },
           ],
         ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "おこめぼー", amount: "", unit: "少々" }]],
       },
     ],
   },
