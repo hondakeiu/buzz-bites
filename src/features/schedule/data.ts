@@ -78,4 +78,45 @@ export const schedules: Schedule[] = [
       { name: "バナナ", amount: "30g" },
     ],
   },
+  {
+    week: "7m1w",
+    meals: [
+      {
+        name: "昼・夜",
+        total: "85g-130g",
+        items: [
+          { name: "おかゆ・パン", amount: "55g" },
+          { name: "野菜・果物", amount: "20g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "魚", amount: "10g" },
+              { name: "肉", amount: "10g" },
+              { name: "豆", amount: "30g" },
+              { name: "卵黄", amount: "15g" },
+              { name: "卵白", amount: "2-3g" },
+              { name: "ヨーグルト", amount: "55g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      { name: "鰹節おかゆ", amount: "670g", recipe: true },
+      { name: "食パン", amount: "100g" },
+      { name: "ささみ", amount: "35g" },
+      { name: "かつお", amount: "25g" },
+      { name: "ほうれん草", amount: "40g" },
+      { name: "にんじん", amount: "30g" },
+      { name: "ミニトマト", amount: "30g" },
+      { name: "レタス", amount: "30g" },
+      { name: "ズッキーニ", amount: "30g" },
+      { name: "いんげん", amount: "30g" },
+      { name: "かぼちゃ", amount: "20g" },
+      { name: "さといも", amount: "20g" },
+      { name: "じゃがいも", amount: "10g" },
+      { name: "とうもろこし", amount: "10g" },
+      { name: "ぶどう", amount: "30g" },
+    ],
+  },
 ];

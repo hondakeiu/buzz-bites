@@ -283,7 +283,7 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "鰹節おかゆ", amount: "50g", recipe: true },
-            { name: "ミニトマト", amount: "10g" },
+            { name: "ミニミニトマト", amount: "10g" },
             { name: "とうもろこし", amount: "10g" },
             { name: "ささみ", amount: "5g" },
           ],
@@ -456,6 +456,15 @@ export const menus: Menu[] = [
           ],
         ],
       },
+      {
+        name: "その他",
+        items: [
+          [
+            { name: "おこめぼー", amount: "5", unit: "本" },
+            { name: "薄めリンゴジュース", amount: "40ml", unit: "" },
+          ],
+        ],
+      },
     ],
   },
   {
@@ -476,14 +485,246 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "85g",
+        total: "95g",
         items: [
           [
             { name: "鰹節おかゆ", amount: "25g", recipe: true },
             { name: "うどん", amount: "25g" },
             { name: "ミニトマト", amount: "10g" },
             { name: "ブロッコリー", amount: "10g" },
+            { name: "ささみ", amount: "5g" },
+            { name: "豆腐", amount: "20g" },
+          ],
+        ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "薄めリンゴジュース", amount: "20ml", unit: "" }]],
+      },
+    ],
+  },
+  {
+    date: "2025-02-24",
+    meals: [
+      {
+        name: "昼",
+        total: "115g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "にんじん", amount: "10g" },
+            { name: "ささみ", amount: "10g" },
+          ],
+          [
+            { name: "ぶどう", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "30g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "95g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "30g", recipe: true },
+            { name: "食パン", amount: "25g" },
+            { name: "ほうれん草", amount: "10g" },
+            { name: "里芋", amount: "10g" },
+            { name: "かつお", amount: "5g" },
+          ],
+          [{ name: "納豆", amount: "15g" }],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-02-25",
+    meals: [
+      {
+        name: "昼",
+        total: "92g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "ほうれん草", amount: "10g" },
+            { name: "ミニトマト", amount: "10g" },
             { name: "卵黄", amount: "15g" },
+            { name: "卵白", amount: "2g" },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "105g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "かぼちゃ", amount: "10g" },
+            { name: "ズッキーニ", amount: "10g" },
+            { name: "ささみ", amount: "5g" },
+          ],
+          [{ name: "きなこヨーグルト", amount: "25g", recipe: true }],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-02-26",
+    meals: [
+      {
+        name: "昼",
+        total: "95g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "じゃがいも", amount: "10g" },
+            { name: "いんげん", amount: "10g" },
+            { name: "かつお", amount: "5g" },
+            { name: "豆腐", amount: "15g" },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "95g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "30g", recipe: true },
+            { name: "食パン", amount: "25g" },
+            { name: "にんじん", amount: "10g" },
+            { name: "レタス", amount: "10g" },
+            { name: "ささみ", amount: "5g" },
+          ],
+          [{ name: "納豆", amount: "15g" }],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-02-27",
+    meals: [
+      {
+        name: "昼",
+        total: "93g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "ほうれん草", amount: "10g" },
+            { name: "ズッキーニ", amount: "10g" },
+            { name: "卵黄", amount: "15g" },
+            { name: "卵白", amount: "3g" },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "105g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "かぼちゃ", amount: "10g" },
+            { name: "ささみ", amount: "5g" },
+          ],
+          [
+            { name: "ぶどう", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "25g", recipe: true },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-02-28",
+    meals: [
+      {
+        name: "昼",
+        total: "105g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "いんげん", amount: "10g" },
+            { name: "とうもろこし", amount: "10g" },
+            { name: "ささみ", amount: "5g" },
+          ],
+          [{ name: "きなこヨーグルト", amount: "25g", recipe: true }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "95g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "30g", recipe: true },
+            { name: "食パン", amount: "25g" },
+            { name: "ほうれん草", amount: "10g" },
+            { name: "里芋", amount: "10g" },
+            { name: "かつお", amount: "5g" },
+          ],
+          [{ name: "納豆", amount: "15g" }],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-01",
+    meals: [
+      {
+        name: "昼",
+        total: "110g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "にんじん", amount: "10g" },
+            { name: "ズッキーニ", amount: "10g" },
+            { name: "かつお", amount: "5g" },
+          ],
+          [{ name: "きなこヨーグルト", amount: "30g", recipe: true }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "95g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "レタス", amount: "10g" },
+            { name: "ミニトマト", amount: "10g" },
+            { name: "ささみ", amount: "5g" },
+            { name: "豆腐", amount: "15g" },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-02",
+    meals: [
+      {
+        name: "昼",
+        total: "110g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "55g", recipe: true },
+            { name: "レタス", amount: "10g" },
+            { name: "かつお", amount: "5g" },
+          ],
+          [
+            { name: "ぶどう", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "30g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "95g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "30g", recipe: true },
+            { name: "食パン", amount: "25g" },
+            { name: "ミニトマト", amount: "10g" },
+            { name: "いんげん", amount: "10g" },
+            { name: "ささみ", amount: "5g" },
+            { name: "豆腐", amount: "15g" },
           ],
         ],
       },
