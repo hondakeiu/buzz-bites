@@ -461,7 +461,7 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "おこめぼー", amount: "5", unit: "本" },
-            { name: "薄めリンゴジュース", amount: "40ml" },
+            { name: "薄めリンゴジュース", amount: "40ml", recipe: true },
           ],
         ],
       },
@@ -499,7 +499,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [[{ name: "薄めリンゴジュース", amount: "20ml" }]],
+        items: [[{ name: "薄めリンゴジュース", amount: "20ml", recipe: true }]],
       },
     ],
   },
@@ -537,7 +537,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [[{ name: "薄めリンゴジュース", amount: "35ml" }]],
+        items: [[{ name: "薄めリンゴジュース", amount: "35ml", recipe: true }]],
       },
     ],
   },
@@ -573,7 +573,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [[{ name: "薄めリンゴジュース", amount: "40ml" }]],
+        items: [[{ name: "薄めリンゴジュース", amount: "40ml", recipe: true }]],
       },
     ],
   },
@@ -609,7 +609,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [[{ name: "薄めリンゴジュース", amount: "20ml" }]],
+        items: [[{ name: "薄めリンゴジュース", amount: "20ml", recipe: true }]],
       },
     ],
   },
