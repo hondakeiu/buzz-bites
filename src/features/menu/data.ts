@@ -460,7 +460,7 @@ export const menus: Menu[] = [
         name: "その他",
         items: [
           [
-            { name: "おこめぼー", amount: "5", unit: "本" },
+            { name: "おこめぼーミルク粥", amount: "25g", recipe: true },
             { name: "薄めりんごジュース", amount: "40ml", recipe: true },
           ],
         ],
@@ -626,6 +626,7 @@ export const menus: Menu[] = [
             { name: "ズッキーニ", amount: "10g" },
             { name: "卵黄", amount: "15g" },
             { name: "卵白", amount: "3g" },
+            { name: "粉チーズ", amount: "", unit: "少々" },
           ],
         ],
       },
@@ -641,6 +642,16 @@ export const menus: Menu[] = [
           [
             { name: "ぶどう", amount: "10g" },
             { name: "きなこヨーグルト", amount: "25g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "その他",
+        items: [
+          [
+            { name: "薄めりんごジュース", amount: "20ml", recipe: true },
+            { name: "お湯", amount: "85ml" },
+            { name: "おこめぼーミルク粥", amount: "40g", recipe: true },
           ],
         ],
       },
