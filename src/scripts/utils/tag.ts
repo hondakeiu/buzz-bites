@@ -32,7 +32,6 @@ export const checkNewRecipe = (name: string, date: string) => {
 
 export const checkNewSchedule = (name: string, week: string, type: "food" | "recipe") => {
   const start = getWeekStart(week);
-  console.log(start);
   for (const category of type === "food" ? foods : recipes) {
     const item = category.items.find((item) => item.name === name);
     if (item && !item.date) {

@@ -172,7 +172,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [[{ name: "薄めりんごジュース", amount: "40ml", recipe: true }]],
+        items: [[{ name: "薄めりんごジュース", amount: "20ml", recipe: true }], [{ name: "薄めりんごジュース", amount: "20ml", recipe: true }]],
       },
     ],
   },
@@ -458,12 +458,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [
-          [
-            { name: "おこめぼーミルク粥", amount: "25g", recipe: true },
-            { name: "薄めりんごジュース", amount: "40ml", recipe: true },
-          ],
-        ],
+        items: [[{ name: "おこめぼーミルク粥", amount: "25g", recipe: true }], [{ name: "薄めりんごジュース", amount: "40ml", recipe: true }]],
       },
     ],
   },
@@ -527,7 +522,7 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "鰹節おかゆ", amount: "30g", recipe: true },
-            { name: "食パン", amount: "25g" },
+            { name: "食パンおかゆ", amount: "25g", recipe: true },
             { name: "ほうれん草", amount: "10g" },
             { name: "里芋", amount: "10g" },
             { name: "かつお", amount: "5g" },
@@ -537,7 +532,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [[{ name: "薄めりんごジュース", amount: "35ml", recipe: true }]],
+        items: [[{ name: "薄めりんごジュース", amount: "15ml", recipe: true }], [{ name: "薄めりんごジュース", amount: "20ml", recipe: true }]],
       },
     ],
   },
@@ -573,7 +568,7 @@ export const menus: Menu[] = [
       },
       {
         name: "その他",
-        items: [[{ name: "薄めりんごジュース", amount: "40ml", recipe: true }]],
+        items: [[{ name: "薄めりんごジュース", amount: "20ml", recipe: true }], [{ name: "薄めりんごジュース", amount: "20ml", recipe: true }]],
       },
     ],
   },
@@ -599,7 +594,7 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "鰹節おかゆ", amount: "30g", recipe: true },
-            { name: "食パン", amount: "25g" },
+            { name: "食パンおかゆ", amount: "25g", recipe: true },
             { name: "にんじん", amount: "10g" },
             { name: "レタス", amount: "10g" },
             { name: "ささみ", amount: "5g" },
@@ -650,9 +645,11 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "薄めりんごジュース", amount: "20ml", recipe: true },
-            { name: "お湯", amount: "85ml" },
-            { name: "おこめぼーミルク粥", amount: "40g", recipe: true },
+            { name: "お湯", amount: "70ml" },
           ],
+          [{ name: "おこめぼーミルク粥", amount: "40g", recipe: true }],
+          [{ name: "お湯", amount: "15ml" }],
+          [{ name: "薄めりんごジュース", amount: "10ml", recipe: true }],
         ],
       },
     ],
@@ -679,13 +676,17 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "鰹節おかゆ", amount: "30g", recipe: true },
-            { name: "食パン", amount: "25g" },
+            { name: "食パンおかゆ", amount: "25g", recipe: true },
             { name: "ほうれん草", amount: "10g" },
             { name: "里芋", amount: "10g" },
             { name: "かつお", amount: "5g" },
           ],
           [{ name: "納豆", amount: "15g" }],
         ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "薄めりんごジュース", amount: "20ml", recipe: true }]],
       },
     ],
   },
@@ -718,6 +719,16 @@ export const menus: Menu[] = [
           ],
         ],
       },
+      {
+        name: "その他",
+        items: [
+          [{ name: "薄めりんごジュース", amount: "20ml", recipe: true }],
+          [
+            { name: "薄め麦茶", amount: "50ml", recipe: true },
+            { name: "おこめぼー", amount: "3", unit: "本" },
+          ],
+        ],
+      },
     ],
   },
   {
@@ -744,12 +755,23 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "鰹節おかゆ", amount: "30g", recipe: true },
-            { name: "食パン", amount: "25g" },
+            { name: "食パンおかゆ", amount: "25g", recipe: true },
             { name: "ミニトマト", amount: "10g" },
             { name: "いんげん", amount: "10g" },
             { name: "ささみ", amount: "5g" },
             { name: "豆腐", amount: "15g" },
           ],
+        ],
+      },
+      {
+        name: "その他",
+        items: [
+          [{ name: "薄めりんごジュース", amount: "15ml", recipe: true }],
+          [
+            { name: "おこめぼー", amount: "1", unit: "本" },
+            { name: "薄め麦茶", amount: "15ml", recipe: true },
+          ],
+          [{ name: "オレンジ", amount: "4", unit: "かけ" }],
         ],
       },
     ],

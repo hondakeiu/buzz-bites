@@ -103,7 +103,7 @@ export const schedules: Schedule[] = [
     ],
     stock: [
       { name: "鰹節おかゆ", amount: "670g", recipe: true },
-      { name: "食パン", amount: "100g" },
+      { name: "食パンおかゆ", amount: "100g", recipe: true },
       { name: "ささみ", amount: "35g" },
       { name: "かつお", amount: "25g" },
       { name: "ほうれん草", amount: "40g" },

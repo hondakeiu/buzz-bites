@@ -48,7 +48,7 @@ export const foods: Category[] = [
       { name: "りんご", date: "2025-02-02", status: "好き" },
       { name: "いちご", date: "2025-01-29", status: "好き", note: "たまに怪しい" },
       { name: "みかん", date: "2025-01-21", status: "嫌い", note: "酸っぱいのが嫌" },
-      { name: "オレンジ", date: null, status: null },
+      { name: "オレンジ", date: "2025-03-02", status: "好き" },
       { name: "桃", date: null, status: null },
       { name: "ぶどう", date: "2025-02-24", status: "好き" },
       { name: "スイカ", date: null, status: null },
