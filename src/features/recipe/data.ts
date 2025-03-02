@@ -24,4 +24,9 @@ export const recipes: Category[] = [
       { name: "薄めりんごジュース", date: "2025-02-12", status: "好き", ingredients: ["お湯", "りんごジュース"] },
     ],
   },
+  {
+    name: "味付け",
+    id: "flavoring",
+    items: [{ name: "ホワイトソース", date: null, status: null, ingredients: ["牛乳", "小麦粉", "バター"] }],
+  },
 ];
