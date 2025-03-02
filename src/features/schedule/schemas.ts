@@ -1,7 +1,7 @@
 export type Schedule = {
   week: string;
   meals: Meal[];
-  stock?: Item[];
+  stock: Item[][];
 };
 
 export type Meal = {

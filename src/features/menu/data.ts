@@ -776,4 +776,245 @@ export const menus: Menu[] = [
       },
     ],
   },
+  {
+    date: "2025-03-03",
+    meals: [
+      {
+        name: "昼",
+        total: "120g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "ブロッコリー", amount: "15g" },
+            { name: "鶏むね肉", amount: "5g" },
+          ],
+          [
+            { name: "バナナ", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "30g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "110g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "小松菜", amount: "15g" },
+            { name: "サーモン", amount: "5g" },
+            { name: "ホワイトソース", amount: "10g", recipe: true },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "じゃがいも", amount: "10g" },
+            { name: "納豆", amount: "10g" },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-04",
+    meals: [
+      {
+        name: "昼",
+        total: "105g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "にんじん", amount: "15g" },
+            { name: "かぼちゃ", amount: "10g" },
+          ],
+          [
+            { name: "卵黄", amount: "15g" },
+            { name: "卵白", amount: "5g" },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "110g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "トマト", amount: "15g" },
+            { name: "なす", amount: "10g" },
+            { name: "しらす", amount: "5g" },
+            { name: "豆腐", amount: "20g" },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-05",
+    meals: [
+      {
+        name: "昼",
+        total: "125g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "ブロッコリー", amount: "15g" },
+            { name: "サーモン", amount: "5g" },
+            { name: "ホワイトソース", amount: "10g", recipe: true },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "バナナ", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "25g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "105g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "トマト", amount: "15g" },
+            { name: "鶏むね肉", amount: "5g" },
+          ],
+          [
+            { name: "じゃがいも", amount: "10g" },
+            { name: "納豆", amount: "15g" },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-06",
+    meals: [
+      {
+        name: "昼",
+        total: "107g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "トマト", amount: "15g" },
+            { name: "いんげん", amount: "10g" },
+            { name: "卵黄", amount: "15g" },
+            { name: "卵白", amount: "7g" },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "110g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "小松菜", amount: "15g" },
+            { name: "とうもろこし", amount: "10g" },
+            { name: "しらす", amount: "5g" },
+            { name: "豆腐", amount: "20g" },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-07",
+    meals: [
+      {
+        name: "昼",
+        total: "120g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "にんじん", amount: "15g" },
+            { name: "かぼちゃ", amount: "10g" },
+            { name: "鶏むね肉", amount: "5g" },
+          ],
+          [{ name: "きなこヨーグルト", amount: "30g", recipe: true }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "110g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "小松菜", amount: "15g" },
+            { name: "サーモン", amount: "5g" },
+            { name: "ホワイトソース", amount: "10g", recipe: true },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "いんげん", amount: "10g" },
+            { name: "納豆", amount: "10g" },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-08",
+    meals: [
+      {
+        name: "昼",
+        total: "120g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "にんじん", amount: "15g" },
+            { name: "しらす", amount: "5g" },
+          ],
+          [
+            { name: "バナナ", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "30g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "110g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "トマト", amount: "15g" },
+            { name: "なす", amount: "10g" },
+            { name: "鶏むね肉", amount: "5g" },
+            { name: "豆腐", amount: "20g" },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-09",
+    meals: [
+      {
+        name: "昼",
+        total: "120g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "小松菜", amount: "15g" },
+            { name: "なす", amount: "10g" },
+            { name: "鶏むね肉", amount: "5g" },
+          ],
+          [{ name: "きなこヨーグルト", amount: "30g", recipe: true }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "115g",
+        items: [
+          [
+            { name: "おかゆ", amount: "60g", recipe: true },
+            { name: "ブロッコリー", amount: "15g" },
+            { name: "サーモン", amount: "5g" },
+            { name: "ホワイトソース", amount: "10g", recipe: true },
+            { name: "粉チーズ", amount: "", unit: "" },
+          ],
+          [
+            { name: "とうもろこし", amount: "10g" },
+            { name: "豆腐", amount: "15g" },
+          ],
+        ],
+      },
+    ],
+  },
 ];

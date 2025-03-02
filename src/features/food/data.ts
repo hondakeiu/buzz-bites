@@ -63,7 +63,10 @@ export const foods: Category[] = [
   {
     name: "肉",
     id: "meat",
-    items: [{ name: "ささみ", date: "2025-02-18", status: "好き" }],
+    items: [
+      { name: "鶏むね肉", date: null, status: null },
+      { name: "ささみ", date: "2025-02-18", status: "好き" },
+    ],
   },
   {
     name: "魚",

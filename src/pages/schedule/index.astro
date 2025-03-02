@@ -6,6 +6,7 @@ import { schedules } from "../../features/schedule/data";
 import { getStageName } from "../../scripts/utils/calendar";
 import { getFoodStatus, getRecipeStatus, getStatusHeartColor } from "../../scripts/utils/status";
 import { checkNewSchedule } from "../../scripts/utils/tag";
+import Partition from "../../components/Partition.astro";
 ---
 
 <Layout meta={data["schedule"]}>
@@ -74,27 +75,34 @@ import { checkNewSchedule } from "../../scripts/utils/tag";
                         <h3 class="text text--jp">冷凍ストック</h3>
                       </div>
                       <div class="ygroup__body meal__body">
-                        <ul>
-                          {group.stock.map((item) => {
-                            const status = item.recipe ? getRecipeStatus(item.name) : getFoodStatus(item.name);
-                            const color = getStatusHeartColor(status);
-                            const tag = checkNewSchedule(item.name, week, item.recipe ? "recipe" : "food");
-                            return (
-                              <li>
-                                <div class="group">
-                                  <div class="yitem group__item">
-                                    <span class:list={["heart heart--f", `heart--${color}f`, "item__status"]} />
-                                    <p class="text text--jp group__item__name">
-                                      {item.name}
-                                      {tag && <span class="text text--jp group__item__tag">{tag}</span>}
-                                    </p>
-                                    <p class="text text--en group__item__amount">{item.amount}</p>
-                                  </div>
-                                </div>
-                              </li>
-                            );
-                          })}
-                        </ul>
+                        {group.stock.map((block) => {
+                          return (
+                            <>
+                              <ul>
+                                {block.map((item) => {
+                                  const status = item.recipe ? getRecipeStatus(item.name) : getFoodStatus(item.name);
+                                  const color = getStatusHeartColor(status);
+                                  const tag = checkNewSchedule(item.name, week, item.recipe ? "recipe" : "food");
+                                  return (
+                                    <li>
+                                      <div class="group">
+                                        <div class="yitem group__item">
+                                          <span class:list={["heart heart--f", `heart--${color}f`, "item__status"]} />
+                                          <p class="text text--jp group__item__name">
+                                            {item.name}
+                                            {tag && <span class="text text--jp group__item__tag">{tag}</span>}
+                                          </p>
+                                          <p class="text text--en group__item__amount">{item.amount}</p>
+                                        </div>
+                                      </div>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                              {block !== group.stock[group.stock.length - 1] && <Partition />}
+                            </>
+                          );
+                        })}
                       </div>
                     </div>
                   )}
