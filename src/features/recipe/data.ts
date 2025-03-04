@@ -8,7 +8,7 @@ export const recipes: Category[] = [
       { name: "おかゆ", date: "2024-12-22", status: "好き", ingredients: ["お米"] },
       { name: "鰹節おかゆ", date: "2025-02-17", status: "好き", ingredients: ["お米", "鰹節"] },
       { name: "食パンおかゆ", date: "2025-02-03", status: "好き", ingredients: ["食パン"] },
-      { name: "おこめぼーミルク粥", date: "2025-02-22", status: "好き", ingredients: ["おこめぼー", "粉ミルク"] },
+      { name: "おこめぼーミルクがゆ", date: "2025-02-22", status: "好き", ingredients: ["おこめぼー", "粉ミルク"] },
     ],
   },
   {
@@ -27,6 +27,6 @@ export const recipes: Category[] = [
   {
     name: "味付け",
     id: "flavoring",
-    items: [{ name: "ホワイトソース", date: null, status: null, ingredients: ["牛乳", "小麦粉", "バター"] }],
+    items: [{ name: "ホワイトソース", date: "2025-03-03", status: "好き", ingredients: ["牛乳", "小麦粉", "バター", "コンソメ"] }],
   },
 ];
