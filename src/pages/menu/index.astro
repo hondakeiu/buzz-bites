@@ -175,3 +175,14 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
     }
   }
 </style>
+
+<script>
+  import { getTodaySectionId } from "../../scripts/utils/calendar";
+  import { smoothScrollTo } from "../../scripts/utils/smoothScrollTo";
+
+  const today = getTodaySectionId();
+
+  window.addEventListener("load", (e) => {
+    smoothScrollTo(`#${today}`);
+  });
+</script>

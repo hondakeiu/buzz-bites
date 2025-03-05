@@ -885,6 +885,10 @@ export const menus: Menu[] = [
           ],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "オレンジ", amount: "4", unit: "かけ" }]],
+      },
     ],
   },
   {

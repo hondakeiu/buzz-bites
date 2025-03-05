@@ -20,13 +20,13 @@
         </a>
       </li>
       <li>
-        <a id="schedule-link">
+        <a href="/buzz-bites/schedule/">
           <span class="heart heart--ys"></span>
           <span class="text text--jp">目安量</span>
         </a>
       </li>
       <li>
-        <a id="menu-link">
+        <a href="/buzz-bites/menu/">
           <span class="heart heart--ys"></span>
           <span class="text text--jp">献立</span>
         </a>
@@ -79,22 +79,3 @@
     }
   }
 </style>
-
-<script>
-  import { anchorLink } from "../scripts/anchorLink";
-  import { getTodaySectionId } from "../scripts/utils/calendar";
-  import { getWeekName } from "../scripts/utils/calendar";
-
-  document.addEventListener("DOMContentLoaded", () => {
-    const menuLink = document.querySelector(".header #menu-link")!;
-    const scheduleLink = document.querySelector(".header #schedule-link")!;
-
-    const today = getTodaySectionId();
-    const week = getWeekName();
-
-    menuLink.setAttribute("href", `/buzz-bites/menu/#${today}`);
-    scheduleLink.setAttribute("href", `/buzz-bites/schedule/#week-${week}`);
-
-    anchorLink();
-  });
-</script>

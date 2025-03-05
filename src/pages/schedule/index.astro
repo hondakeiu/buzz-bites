@@ -183,3 +183,14 @@ import Partition from "../../components/Partition.astro";
     }
   }
 </style>
+
+<script>
+  import { getWeekName } from "../../scripts/utils/calendar";
+  import { smoothScrollTo } from "../../scripts/utils/smoothScrollTo";
+
+  const week = getWeekName();
+
+  window.addEventListener("load", (e) => {
+    smoothScrollTo(`#week-${week}`);
+  });
+</script>
