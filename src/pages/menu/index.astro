@@ -55,8 +55,8 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
                                       <li>
                                         <div class="yitem item">
                                           <span class:list={["heart heart--f", `heart--${color}f`, "item__status"]} />
-                                          <p class="text text--jp item__name">
-                                            {item.name}
+                                          <p class="item__name_wrapper">
+                                            <span class="text text--jp item__name">{item.name}</span>
                                             {tag && <span class="text text--jp item__tag">{tag}</span>}
                                           </p>
                                           <p class="text text--en item__amount">
@@ -87,7 +87,7 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
                             <li>
                               <div class="yitem item">
                                 <span class="heart heart--f heart--rf" />
-                                <p class="text">{memo}</p>
+                                <p class="text text--jp">{memo}</p>
                               </div>
                             </li>
                           ))}
@@ -149,6 +149,9 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
             }
             &__body {
               .item {
+                &__name {
+                  display: inline;
+                }
                 &__tag {
                   display: inline-flex;
                   justify-content: center;
@@ -163,9 +166,7 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
                 &__amount {
                   display: flex;
                   font-size: 1.2rem;
-                  span {
-                    margin-top: 0.1rem;
-                  }
+                  margin-top: 0.1rem;
                 }
               }
             }
@@ -182,7 +183,33 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
 
   const today = getTodaySectionId();
 
+  const meals = document.querySelectorAll(`#${today} .meal`);
+
   window.addEventListener("load", (e) => {
     smoothScrollTo(`#${today}`);
+  });
+
+  meals.forEach((meal) => {
+    const items = meal.querySelectorAll(".item");
+
+    const itemTextArray = [...items].map((item) => {
+      const nameEl = item.querySelector<HTMLElement>(".item__name")!;
+      const amountEl = item.querySelector<HTMLElement>(".item__amount")!;
+
+      const name = nameEl.textContent?.replaceAll(" ", "");
+      const amount = amountEl.textContent?.replaceAll(" ", "");
+      return `${name} ${amount}`;
+    });
+
+    const resultText = itemTextArray.join("\n");
+
+    meal.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(resultText);
+        alert("献立をコピーしました");
+      } catch (err) {
+        alert("献立のコピーに失敗しました");
+      }
+    });
   });
 </script>
