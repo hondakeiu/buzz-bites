@@ -206,9 +206,9 @@ import { checkNewFood, checkNewRecipe } from "../../scripts/utils/tag";
     meal.addEventListener("click", async () => {
       try {
         await navigator.clipboard.writeText(resultText);
-        alert("献立をコピーしました");
+        alert("【ぴよログ記録用】\n  献立をコピーしました");
       } catch (err) {
-        alert("献立のコピーに失敗しました");
+        alert("【ぴよログ記録用】\n  献立のコピーに失敗しました");
       }
     });
   });
