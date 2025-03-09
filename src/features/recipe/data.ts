@@ -12,6 +12,16 @@ export const recipes: Category[] = [
     ],
   },
   {
+    name: "おかず",
+    id: "side",
+    items: [{ name: "しらすピーマン", date: null, status: null, ingredients: ["しらす", "ピーマン"] }],
+  },
+  {
+    name: "スープ",
+    id: "soup",
+    items: [{ name: "卵スープ", date: null, status: null, ingredients: ["卵", "万能ねぎ"] }],
+  },
+  {
     name: "デザート",
     id: "dessert",
     items: [{ name: "きなこヨーグルト", date: "2025-02-12", status: "好き", ingredients: ["ヨーグルト", "きなこ"] }],
