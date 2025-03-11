@@ -1072,7 +1072,7 @@ export const menus: Menu[] = [
           [
             { name: "鰹節おかゆ", amount: "65g", recipe: true },
             { name: "にんじん", amount: "15g" },
-            { name: "ピーマン", amount: "10g" },
+            { name: "しらすピーマン", amount: "10g", recipe: true },
             { name: "卵黄", amount: "15g" },
             { name: "卵白", amount: "7g" },
           ],
@@ -1142,7 +1142,7 @@ export const menus: Menu[] = [
           [
             { name: "鰹節おかゆ", amount: "65g", recipe: true },
             { name: "カリフラワー", amount: "15g" },
-            { name: "ピーマン", amount: "10g" },
+            { name: "しらすピーマン", amount: "10g", recipe: true },
             { name: "卵黄", amount: "15g" },
             { name: "卵白", amount: "10g" },
           ],
@@ -1259,7 +1259,7 @@ export const menus: Menu[] = [
           [
             { name: "鰹節おかゆ", amount: "65g", recipe: true },
             { name: "トマト", amount: "15g" },
-            { name: "ピーマン", amount: "10g" },
+            { name: "しらすピーマン", amount: "10g", recipe: true },
             { name: "まぐろ", amount: "5g" },
           ],
           [

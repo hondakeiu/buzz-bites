@@ -211,7 +211,7 @@ export const schedules: Schedule[] = [
         { name: "にんじん", amount: "45g" },
         { name: "カリフラワー", amount: "45g" },
         { name: "チンゲン菜", amount: "30g" },
-        { name: "ピーマン", amount: "30g" },
+        { name: "しらすピーマン", amount: "30g", recipe: true },
         { name: "かぼちゃ", amount: "20g" },
         { name: "とうもろこし", amount: "20g" },
         { name: "じゃがいも", amount: "10g" },
