@@ -1130,6 +1130,10 @@ export const menus: Menu[] = [
           [{ name: "卵スープ", amount: "15g", recipe: true }],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "りんごジュース", amount: "55ml" }]],
+      },
     ],
   },
   {
@@ -1164,6 +1168,10 @@ export const menus: Menu[] = [
           ],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "お湯", amount: "15ml" }], [{ name: "麦茶", amount: "25ml" }]],
+      },
     ],
   },
   {
@@ -1197,6 +1205,10 @@ export const menus: Menu[] = [
           ],
           [{ name: "卵スープ", amount: "15g", recipe: true }],
         ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "バナナ", amount: "1/2", unit: "本" }]],
       },
     ],
   },
