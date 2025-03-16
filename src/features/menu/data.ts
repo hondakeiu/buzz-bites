@@ -1246,6 +1246,15 @@ export const menus: Menu[] = [
           ],
         ],
       },
+      {
+        name: "その他",
+        items: [
+          [
+            { name: "野菜ジュース", amount: "40ml" },
+            { name: "ぶどう", amount: "2", unit: "個" },
+          ],
+        ],
+      },
     ],
   },
   {
@@ -1277,6 +1286,283 @@ export const menus: Menu[] = [
           [
             { name: "豆腐", amount: "20g" },
             { name: "卵スープ", amount: "15g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "いちご", amount: "1/2", unit: "個" }]],
+      },
+    ],
+  },
+  {
+    date: "2025-03-17",
+    meals: [
+      {
+        name: "昼",
+        total: "147g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "にんじん", amount: "10g" },
+            { name: "かぼちゃ", amount: "10g" },
+            { name: "鯛", amount: "7g" },
+            { name: "ホワイトソース", amount: "10g" },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "いちご", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "30g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "142g",
+        items: [
+          [
+            { name: "マカロニ", amount: "70g" },
+            { name: "トマト", amount: "10g" },
+            { name: "パプリカ", amount: "10g" },
+            { name: "なす", amount: "10g" },
+            { name: "鶏むね肉", amount: "7g" },
+            { name: "オリーブオイル", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "豆腐", amount: "15g" },
+            { name: "トマトと卵のスープ", amount: "20g", recipe: true },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-18",
+    meals: [
+      {
+        name: "昼",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "小松菜", amount: "10g" },
+            { name: "玉ねぎ", amount: "10g" },
+            { name: "鶏むね肉", amount: "7g" },
+          ],
+          [
+            { name: "ぶどう", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "35g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "147g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "トマト", amount: "10g" },
+            { name: "ブロッコリー", amount: "10g" },
+            { name: "鯛", amount: "7g" },
+            { name: "ホワイトソース", amount: "10g", recipe: true },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "オクラ", amount: "10g" },
+            { name: "納豆", amount: "10g" },
+          ],
+          [{ name: "トマトと卵のスープ", amount: "20g", recipe: true }],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-19",
+    meals: [
+      {
+        name: "昼",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "にんじん", amount: "10g" },
+            { name: "かぼちゃ", amount: "10g" },
+            { name: "鶏むね肉", amount: "7g" },
+          ],
+          [
+            { name: "いちご", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "35g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "147g",
+        items: [
+          [
+            { name: "マカロニ", amount: "70g" },
+            { name: "小松菜", amount: "10g" },
+            { name: "じゃがいも", amount: "10g" },
+            { name: "ブロッコリー", amount: "10g" },
+            { name: "鯛", amount: "7g" },
+            { name: "ホワイトソース", amount: "10g", recipe: true },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "豆腐", amount: "10g" },
+            { name: "トマトと卵のスープ", amount: "20g", recipe: true },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-20",
+    meals: [
+      {
+        name: "昼",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "かぼちゃ", amount: "10g" },
+            { name: "パプリカ", amount: "10g" },
+            { name: "鶏むね肉", amount: "7g" },
+          ],
+          [
+            { name: "ぶどう", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "35g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "にんじん", amount: "10g" },
+            { name: "ブロッコリー", amount: "10g" },
+            { name: "鯛", amount: "7g" },
+          ],
+          [
+            { name: "オクラ", amount: "10g" },
+            { name: "納豆", amount: "15g" },
+          ],
+          [{ name: "トマトと卵のスープ", amount: "20g", recipe: true }],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-21",
+    meals: [
+      {
+        name: "昼",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "小松菜", amount: "10g" },
+            { name: "なす", amount: "10g" },
+            { name: "鶏むね肉", amount: "7g" },
+          ],
+          [
+            { name: "いちご", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "35g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "142g",
+        items: [
+          [
+            { name: "マカロニ", amount: "70g" },
+            { name: "トマト", amount: "10g" },
+            { name: "パプリカ", amount: "10g" },
+            { name: "玉ねぎ", amount: "10g" },
+            { name: "鯛", amount: "7g" },
+          ],
+          [
+            { name: "豆腐", amount: "15g" },
+            { name: "トマトと卵のスープ", amount: "20g", recipe: true },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-22",
+    meals: [
+      {
+        name: "昼",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "にんじん", amount: "10g" },
+            { name: "トマト", amount: "10g" },
+            { name: "鯛", amount: "7g" },
+          ],
+          [
+            { name: "ぶどう", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "35g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "小松菜", amount: "10g" },
+            { name: "じゃがいも", amount: "10g" },
+            { name: "鶏むね肉", amount: "7g" },
+          ],
+          [
+            { name: "オクラ", amount: "10g" },
+            { name: "納豆", amount: "15g" },
+          ],
+          [{ name: "トマトと卵のスープ", amount: "20g", recipe: true }],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-03-23",
+    meals: [
+      {
+        name: "昼",
+        total: "142g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "70g", recipe: true },
+            { name: "トマト", amount: "10g" },
+            { name: "なす", amount: "10g" },
+            { name: "じゃがいも", amount: "10g" },
+            { name: "鯛", amount: "7g" },
+          ],
+          [{ name: "きなこヨーグルト", amount: "35g", recipe: true }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "147g",
+        items: [
+          [
+            { name: "マカロニ", amount: "70g" },
+            { name: "小松菜", amount: "10g" },
+            { name: "ブロッコリー", amount: "10g" },
+            { name: "玉ねぎ", amount: "10g" },
+            { name: "鶏むね肉", amount: "7g" },
+            { name: "ホワイトソース", amount: "10g", recipe: true },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [
+            { name: "豆腐", amount: "10g" },
+            { name: "トマトと卵のスープ", amount: "20g", recipe: true },
           ],
         ],
       },

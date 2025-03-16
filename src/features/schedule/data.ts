@@ -194,7 +194,7 @@ export const schedules: Schedule[] = [
             variants: [
               { name: "肉", amount: "10g" },
               { name: "魚", amount: "10g" },
-              { name: "豆", amount: "40g" },
+              { name: "豆", amount: "35g" },
               { name: "卵黄", amount: "15g" },
               { name: "卵白", amount: "7-10g" },
               { name: "乳", amount: "65g" },
@@ -223,6 +223,57 @@ export const schedules: Schedule[] = [
         { name: "しらす", amount: "15g" },
       ],
       [{ name: "卵スープ", amount: "105g", recipe: true }],
+    ],
+  },
+  {
+    week: "8m0w",
+    meals: [
+      {
+        name: "昼・夜",
+        total: "115g-170g",
+        items: [
+          { name: "おかゆ・マカロニ", amount: "70g" },
+          { name: "野菜・果物", amount: "30g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "40g" },
+              { name: "卵", amount: "20g" },
+              { name: "乳", amount: "70g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [
+        { name: "鰹節おかゆ", amount: "700g", recipe: true },
+        { name: "マカロニ", amount: "280g" },
+      ],
+      [
+        { name: "小松菜", amount: "50g" },
+        { name: "トマト", amount: "50g" },
+        { name: "にんじん", amount: "40g" },
+        { name: "ブロッコリー", amount: "40g" },
+        { name: "なす", amount: "30g" },
+        { name: "玉ねぎ", amount: "30g" },
+        { name: "パプリカ", amount: "30g" },
+        { name: "かぼちゃ", amount: "30g" },
+        { name: "じゃがいも", amount: "30g" },
+        { name: "オクラ", amount: "30g" },
+        { name: "ぶどう", amount: "30g" },
+        { name: "いちご", amount: "30g" },
+      ],
+      [
+        { name: "鶏むね肉", amount: "49g" },
+        { name: "鯛", amount: "49g" },
+      ],
+      [
+        { name: "ホワイトソース", amount: "50g", recipe: true },
+        { name: "トマトと卵のスープ", amount: "140g", recipe: true },
+      ],
     ],
   },
 ];
