@@ -22,7 +22,7 @@ export const recipes: Category[] = [
     items: [
       { name: "卵スープ", date: "2025-03-10", status: "好き", ingredients: ["卵", "万能ねぎ"] },
       { name: "トマトと卵のスープ", date: "2025-03-17", status: "好き", ingredients: ["卵", "トマト"] },
-      { name: "きゅうりと卵のスープ", date: null, status: null, ingredients: ["卵", "きゅうり"] },
+      { name: "きゅうりと卵のスープ", date: "2025-03-24", status: "好き", ingredients: ["卵", "きゅうり"] },
     ],
   },
   {
