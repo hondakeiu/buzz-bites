@@ -325,4 +325,53 @@ export const schedules: Schedule[] = [
       ],
     ],
   },
+  {
+    week: "8m2w",
+    meals: [
+      {
+        name: "昼・夜",
+        total: "125g-180g",
+        items: [
+          { name: "おかゆ", amount: "80g" },
+          { name: "野菜・果物", amount: "30g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "40g" },
+              { name: "卵", amount: "20g" },
+              { name: "乳", amount: "70g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "鰹節おかゆ", amount: "1120g", recipe: true }],
+      [
+        { name: "小松菜", amount: "50g" },
+        { name: "トマト", amount: "50g" },
+        { name: "にんじん", amount: "40g" },
+        { name: "ブロッコリー", amount: "40g" },
+        { name: "なす", amount: "30g" },
+        { name: "とうもろこし", amount: "30g" },
+        { name: "いんげん", amount: "30g" },
+        { name: "かぼちゃ", amount: "30g" },
+        { name: "じゃがいも", amount: "30g" },
+        { name: "とろろ", amount: "30g" },
+        { name: "洋梨", amount: "30g" },
+        { name: "さくらんぼ", amount: "30g" },
+      ],
+      [
+        { name: "鶏むね肉", amount: "49g" },
+        { name: "鯛", amount: "35g" },
+        { name: "しらす", amount: "14g" },
+      ],
+      [
+        { name: "ホワイトソース", amount: "50g", recipe: true },
+        { name: "トマトと卵のスープ", amount: "175g", recipe: true },
+      ],
+    ],
+  },
 ];
