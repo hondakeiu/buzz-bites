@@ -1938,6 +1938,10 @@ export const menus: Menu[] = [
           [{ name: "トマトと卵のスープ", amount: "25g", recipe: true }],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "おこめぼー赤", amount: "1", unit: "本" }]],
+      },
     ],
   },
   {
@@ -2017,6 +2021,10 @@ export const menus: Menu[] = [
           ],
           [{ name: "トマトと卵のスープ", amount: "20g", recipe: true }],
         ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "たまごボーロ", amount: "3", unit: "粒" }]],
       },
     ],
   },
