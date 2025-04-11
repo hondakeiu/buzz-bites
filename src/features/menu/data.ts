@@ -2234,6 +2234,10 @@ export const menus: Menu[] = [
           [{ name: "卵スープ", amount: "25g", recipe: true }],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "お湯", amount: "60ml" }]],
+      },
     ],
   },
   {
@@ -2258,6 +2262,11 @@ export const menus: Menu[] = [
         ],
       },
       {
+        name: "夕",
+        total: "120g",
+        items: [[{ name: "食パン", amount: "1/4", unit: "枚" }], [{ name: "イオン飲料", amount: "110ml" }]],
+      },
+      {
         name: "夜",
         total: "157g",
         items: [
@@ -2275,6 +2284,7 @@ export const menus: Menu[] = [
         ],
       },
     ],
+    memo: ["午後のミルクを全く飲まなくて、急遽食パンを食べた"],
   },
   {
     date: "2025-04-10",
@@ -2298,6 +2308,16 @@ export const menus: Menu[] = [
         ],
       },
       {
+        name: "夕",
+        total: "150g",
+        items: [
+          [
+            { name: "バナナ", amount: "100g" },
+            { name: "きなこヨーグルト", amount: "50g", recipe: true },
+          ],
+        ],
+      },
+      {
         name: "夜",
         total: "157g",
         items: [
@@ -2314,7 +2334,12 @@ export const menus: Menu[] = [
           [{ name: "卵スープ", amount: "25g", recipe: true }],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "麦茶", amount: "40ml" }], [{ name: "麦茶", amount: "40ml" }], [{ name: "いちご", amount: "1", unit: "個" }]],
+      },
     ],
+    memo: ["また午後のミルクを全く飲まなくて、食事になった"],
   },
   {
     date: "2025-04-11",
@@ -2336,6 +2361,22 @@ export const menus: Menu[] = [
         ],
       },
       {
+        name: "夕",
+        total: "155g",
+        items: [
+          [
+            { name: "食パン", amount: "1/3", unit: "枚" },
+            { name: "茶碗蒸し", amount: "50g", recipe: true },
+          ],
+          [
+            { name: "かぼちゃ", amount: "30g" },
+            { name: "牛乳", amount: "20g" },
+            { name: "粉チーズ", amount: "", unit: "少々" },
+          ],
+          [{ name: "野菜ジュース", amount: "45ml" }],
+        ],
+      },
+      {
         name: "夜",
         total: "157g",
         items: [
@@ -2352,7 +2393,12 @@ export const menus: Menu[] = [
           ],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "湯豆腐", amount: "50g", recipe: true }]],
+      },
     ],
+    memo: ["来週からの予定だったけど、もう午後のミルクは諦めて3回食に変更"],
   },
   {
     date: "2025-04-12",
@@ -2395,7 +2441,7 @@ export const menus: Menu[] = [
     ],
   },
   {
-    date: "2025-04-07",
+    date: "2025-04-13",
     meals: [
       {
         name: "昼",
