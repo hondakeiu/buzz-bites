@@ -423,4 +423,56 @@ export const schedules: Schedule[] = [
       ],
     ],
   },
+  {
+    week: "9m0w",
+    meals: [
+      {
+        name: "昼・夕・夜",
+        total: "135g-200g",
+        items: [
+          { name: "おかゆ", amount: "90g" },
+          { name: "野菜・果物", amount: "30g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [
+        { name: "鰹節おかゆ", amount: "1260g", recipe: true },
+        { name: "うどん", amount: "180g" },
+      ],
+      [
+        { name: "ほうれん草", amount: "60g" },
+        { name: "トマト", amount: "60g" },
+        { name: "にんじん", amount: "60g" },
+        { name: "ブロッコリー", amount: "50g" },
+        { name: "しめじ", amount: "50g" },
+        { name: "なす", amount: "40g" },
+        { name: "かぼちゃ", amount: "30g" },
+        { name: "じゃがいも", amount: "30g" },
+        { name: "アボカド", amount: "30g" },
+        { name: "りんご", amount: "40g" },
+        { name: "ぶどう", amount: "30g" },
+      ],
+      [
+        { name: "鶏むね肉", amount: "32g" },
+        { name: "豚肉", amount: "32g" },
+        { name: "さば", amount: "32g" },
+        { name: "しらす", amount: "16g" },
+      ],
+      [
+        { name: "茶碗蒸しの具", amount: "45g", prepare: true },
+        { name: "ほうれん草と卵のスープ", amount: "175g", recipe: true },
+      ],
+    ],
+  },
 ];

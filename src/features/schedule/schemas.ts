@@ -14,6 +14,7 @@ export type Item = {
   name: string;
   amount?: string;
   variants?: Variant[];
+  prepare?: boolean;
   recipe?: boolean;
 };
 
