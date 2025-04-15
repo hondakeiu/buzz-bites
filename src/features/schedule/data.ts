@@ -427,7 +427,7 @@ export const schedules: Schedule[] = [
     week: "9m0w",
     meals: [
       {
-        name: "昼・夕・夜",
+        name: "昼・夜",
         total: "135g-200g",
         items: [
           { name: "おかゆ", amount: "90g" },
@@ -440,6 +440,27 @@ export const schedules: Schedule[] = [
               { name: "豆", amount: "45g" },
               { name: "卵", amount: "30g" },
               { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "夕",
+        total: "130g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "うどん", amount: "60g" },
+              { name: "蒸しパン", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "30g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "豆腐茶碗蒸し", amount: "50g" },
+              { name: "ヨーグルト", amount: "70g" },
             ],
           },
         ],
@@ -461,7 +482,8 @@ export const schedules: Schedule[] = [
         { name: "じゃがいも", amount: "30g" },
         { name: "アボカド", amount: "30g" },
         { name: "りんご", amount: "40g" },
-        { name: "ぶどう", amount: "30g" },
+        { name: "洋梨", amount: "20g" },
+        { name: "さくらんぼ", amount: "10g" },
       ],
       [
         { name: "鶏むね肉", amount: "32g" },
@@ -471,7 +493,7 @@ export const schedules: Schedule[] = [
       ],
       [
         { name: "茶碗蒸しの具", amount: "45g", prepare: true },
-        { name: "ほうれん草と卵のスープ", amount: "175g", recipe: true },
+        { name: "卵スープ", amount: "175g", recipe: true },
       ],
     ],
   },

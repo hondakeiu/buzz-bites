@@ -9,16 +9,17 @@ export const recipes: Category[] = [
       { name: "食パンおかゆ", date: "2025-02-03", status: "好き", ingredients: ["食パン"] },
       { name: "鰹節おかゆ", date: "2025-02-17", status: "好き", ingredients: ["お米", "鰹節"] },
       { name: "おこめぼーミルクがゆ", date: "2025-02-22", status: "好き", ingredients: ["おこめぼー", "粉ミルク"] },
+      { name: "蒸しパン", date: "2025-04-14", status: "好き", ingredients: ["小麦粉", "牛乳"] },
     ],
   },
   {
     name: "おかず",
     id: "side",
     items: [
-      { name: "茶碗蒸し", date: "2025-04-06", status: "好き", ingredients: ["卵", "和風だし"] },
       { name: "しらすピーマン", date: "2025-03-11", status: "好き", ingredients: ["しらす", "ピーマン"] },
+      { name: "茶碗蒸し", date: "2025-04-06", status: "好き", ingredients: ["卵", "和風だし"] },
       { name: "湯豆腐", date: "2025-04-11", status: "好き", ingredients: ["豆腐", "和風だし"] },
-      { name: "豆腐茶碗蒸し", date: null, status: null, ingredients: ["卵", "豆腐", "和風だし"] },
+      { name: "豆腐茶碗蒸し", date: "2025-04-13", status: "好き", ingredients: ["卵", "豆腐", "和風だし"] },
     ],
   },
   {
@@ -28,7 +29,6 @@ export const recipes: Category[] = [
       { name: "卵スープ", date: "2025-03-10", status: "好き", ingredients: ["卵", "万能ねぎ"] },
       { name: "トマトと卵のスープ", date: "2025-03-17", status: "好き", ingredients: ["卵", "トマト"] },
       { name: "きゅうりと卵のスープ", date: "2025-03-24", status: "好き", ingredients: ["卵", "きゅうり"] },
-      { name: "ほうれん草と卵のスープ", date: null, status: null, ingredients: ["卵", "ほうれん草"] },
     ],
   },
   {
