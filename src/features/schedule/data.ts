@@ -497,4 +497,57 @@ export const schedules: Schedule[] = [
       ],
     ],
   },
+  {
+    week: "9m1w",
+    meals: [
+      {
+        name: "昼・夜",
+        total: "130g-200g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "おかゆ", amount: "90g" },
+              { name: "蒸しパン", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "30g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "鰹節おかゆ", amount: "1530g", recipe: true }],
+      [
+        { name: "小松菜", amount: "60g" },
+        { name: "トマト", amount: "60g" },
+        { name: "にんじん", amount: "60g" },
+        { name: "ブロッコリー", amount: "60g" },
+        { name: "えのき", amount: "60g" },
+        { name: "かぼちゃ", amount: "40g" },
+        { name: "じゃがいも", amount: "40g" },
+        { name: "レタス", amount: "30g" },
+        { name: "とろろ", amount: "30g" },
+        { name: "ぶどう", amount: "30g" },
+        { name: "りんご", amount: "20g" },
+        { name: "キウイ", amount: "20g" },
+      ],
+      [
+        { name: "鶏むね肉", amount: "48g" },
+        { name: "牛肉", amount: "32g" },
+        { name: "サーモン", amount: "40g" },
+        { name: "ぶり", amount: "40g" },
+      ],
+      [{ name: "卵スープ", amount: "175g", recipe: true }],
+    ],
+  },
 ];
