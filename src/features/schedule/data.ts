@@ -501,7 +501,7 @@ export const schedules: Schedule[] = [
     week: "9m1w",
     meals: [
       {
-        name: "昼・夜",
+        name: "昼・夕・夜",
         total: "130g-200g",
         items: [
           {
@@ -548,6 +548,58 @@ export const schedules: Schedule[] = [
         { name: "ぶり", amount: "40g" },
       ],
       [{ name: "卵スープ", amount: "175g", recipe: true }],
+    ],
+  },
+  {
+    week: "9m2w",
+    meals: [
+      {
+        name: "昼・夕・夜",
+        total: "130g-200g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "おかゆ", amount: "90g" },
+              { name: "蒸しパン", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "30g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "鰹節おかゆ", amount: "1440g", recipe: true }],
+      [
+        { name: "小松菜", amount: "60g" },
+        { name: "トマト", amount: "60g" },
+        { name: "ブロッコリー", amount: "60g" },
+        { name: "にんじん", amount: "50g" },
+        { name: "しめじ", amount: "50g" },
+        { name: "かぼちゃ", amount: "40g" },
+        { name: "じゃがいも", amount: "30g" },
+        { name: "なす", amount: "30g" },
+        { name: "オクラ", amount: "30g" },
+        { name: "いちご", amount: "40g" },
+        { name: "ぶどう", amount: "30g" },
+      ],
+      [
+        { name: "鶏むね肉", amount: "40g" },
+        { name: "牛肉", amount: "40g" },
+        { name: "ツナ（まぐろ水煮）", amount: "40g" },
+        { name: "しらす", amount: "32g" },
+      ],
+      [{ name: "卵スープ", amount: "150g", recipe: true }],
     ],
   },
 ];
