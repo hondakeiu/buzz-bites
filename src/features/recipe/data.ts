@@ -10,12 +10,6 @@ export const recipes: Category[] = [
       { name: "鰹節おかゆ", date: "2025-02-17", status: "好き", ingredients: ["お米", "鰹節"] },
       { name: "おこめぼーミルクがゆ", date: "2025-02-22", status: "好き", ingredients: ["おこめぼー", "粉ミルク"] },
       { name: "蒸しパン", date: "2025-04-14", status: "好き", ingredients: ["小麦粉", "牛乳"] },
-      {
-        name: "北海道産とうもろこしのシチュー（スープストック）",
-        date: null,
-        status: null,
-        ingredients: ["お米", "とうもろこし", "かぼちゃ", "枝豆", "しめじ", "サーモン"],
-      },
     ],
   },
   {
@@ -54,5 +48,47 @@ export const recipes: Category[] = [
     name: "味付け",
     id: "flavoring",
     items: [{ name: "ホワイトソース", date: "2025-03-03", status: "好き", ingredients: ["牛乳", "小麦粉", "バター", "コンソメ"] }],
+  },
+  {
+    name: "BF",
+    id: "babyfood",
+    items: [
+      {
+        name: "スープストック 北海道産とうもろこしのシチュー",
+        date: "2025-04-30",
+        status: "好き",
+        ingredients: ["お米", "とうもろこし", "かぼちゃ", "枝豆", "しめじ", "サーモン"],
+      },
+      {
+        name: "キューピー 国産ももとりんご",
+        date: "2025-05-05",
+        status: "好き",
+        ingredients: ["もも", "りんご"],
+      },
+      {
+        name: "キューピー ミックスフルーツ",
+        date: null,
+        status: null,
+        ingredients: ["もも", "りんご", "みかん", "パイナップル"],
+      },
+      {
+        name: "スープストック 鶏肉と7種の野菜のミネストローネ",
+        date: null,
+        status: null,
+        ingredients: ["お米", "キャベツ", "玉ねぎ", "ズッキーニ", "にんじん", "トマト", "鶏むね肉"],
+      },
+      {
+        name: "スープストック 鯛出汁とトマトのおじや",
+        date: null,
+        status: null,
+        ingredients: ["お米", "大根", "パプリカ", "アスパラガス", "トマト", "鯛"],
+      },
+      {
+        name: "スープストック 鶏肉とさつまいものおじや",
+        date: null,
+        status: null,
+        ingredients: ["お米", "さつまいも", "かぶ", "鶏むね肉"],
+      },
+    ],
   },
 ];
