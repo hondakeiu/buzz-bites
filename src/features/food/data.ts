@@ -52,7 +52,7 @@ export const foods: Category[] = [
       { name: "しめじ", date: "2025-04-13", status: "好き" },
       { name: "アボカド", date: "2025-04-15", status: "好き" },
       { name: "えのき", date: "2025-04-21", status: "好き" },
-      { name: "カリフラワーミックス", date: null, status: null },
+      { name: "ひらたけ", date: null, status: null },
     ],
   },
   {
@@ -99,6 +99,7 @@ export const foods: Category[] = [
       { name: "まぐろ", date: "2025-03-10", status: "好き" },
       { name: "さば", date: "2025-04-14", status: "好き" },
       { name: "ぶり", date: "2025-04-22", status: "好き" },
+      { name: "アジ", date: null, status: null },
     ],
   },
   {
@@ -164,6 +165,11 @@ export const foods: Category[] = [
       { name: "たまごボーロ", date: "2025-04-03", status: "好き" },
       { name: "ハイハイン", date: "2025-04-19", status: "好き" },
     ],
+  },
+  {
+    name: "市販品",
+    id: "prepared",
+    items: [{ name: "カリフラワーミックス", date: "2025-05-05", status: "好き", ingredients: ["カリフラワー", "にんじん", "ほうれん草"] }],
   },
   {
     name: "その他",

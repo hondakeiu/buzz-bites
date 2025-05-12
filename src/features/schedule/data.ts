@@ -650,4 +650,55 @@ export const schedules: Schedule[] = [
       [{ name: "卵スープ", amount: "175g", recipe: true }],
     ],
   },
+  {
+    week: "9m4w",
+    meals: [
+      {
+        name: "昼・夕・夜",
+        total: "130g-200g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "おかゆ", amount: "90g" },
+              { name: "スープストック", amount: "100g" },
+              { name: "蒸しパン", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "30g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "鰹節おかゆ", amount: "1260g", recipe: true }],
+      [
+        { name: "小松菜", amount: "60g" },
+        { name: "トマト", amount: "60g" },
+        { name: "にんじん", amount: "60g" },
+        { name: "ブロッコリー", amount: "60g" },
+        { name: "ひらたけ", amount: "60g" },
+        { name: "かぼちゃ", amount: "60g" },
+        { name: "オクラ", amount: "30g" },
+        { name: "アボカド", amount: "30g" },
+        { name: "キューピー 国産ももとりんご", amount: "70g", recipe: true },
+        { name: "キューピー ミックスフルーツ", amount: "60g", recipe: true },
+      ],
+      [
+        { name: "鶏むね肉", amount: "56g" },
+        { name: "アジ", amount: "32g" },
+        { name: "たら", amount: "24g" },
+      ],
+      [{ name: "卵スープ", amount: "175g", recipe: true }],
+    ],
+  },
 ];

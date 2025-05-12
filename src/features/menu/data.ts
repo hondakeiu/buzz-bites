@@ -3915,7 +3915,7 @@ export const menus: Menu[] = [
     ],
   },
   {
-    date: "2025-05-08",
+    date: "2025-05-11",
     meals: [
       {
         name: "昼",
@@ -3955,6 +3955,56 @@ export const menus: Menu[] = [
             { name: "ブロッコリー", amount: "10g" },
             { name: "かぼちゃ", amount: "10g" },
             { name: "鶏むね肉", amount: "8g" },
+          ],
+          [
+            { name: "豆腐", amount: "20g" },
+            { name: "卵スープ", amount: "25g", recipe: true },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-05-12",
+    meals: [
+      {
+        name: "昼",
+        total: "178g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "トマト", amount: "10g" },
+            { name: "ブロッコリー", amount: "10g" },
+            { name: "ひらたけ", amount: "10g" },
+            { name: "鶏むね肉", amount: "8g" },
+          ],
+          [
+            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "きなこヨーグルト", amount: "40g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夕",
+        total: "130g",
+        items: [
+          [
+            { name: "蒸しパン", amount: "30g", recipe: true },
+            { name: "きなこヨーグルト", amount: "70g", recipe: true },
+          ],
+          [{ name: "バナナ", amount: "30g" }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "173g",
+        items: [
+          [
+            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "小松菜", amount: "10g" },
+            { name: "にんじん", amount: "10g" },
+            { name: "アボカド", amount: "10g" },
+            { name: "アジ", amount: "8g" },
           ],
           [
             { name: "豆腐", amount: "20g" },
