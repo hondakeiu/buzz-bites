@@ -169,7 +169,7 @@ export const foods: Category[] = [
   {
     name: "市販品",
     id: "prepared",
-    items: [{ name: "カリフラワーミックス", date: "2025-05-05", status: "好き", ingredients: ["カリフラワー", "にんじん", "ほうれん草"] }],
+    items: [{ name: "カリフラワーミックス", date: "2025-05-05", status: "好き" }],
   },
   {
     name: "その他",

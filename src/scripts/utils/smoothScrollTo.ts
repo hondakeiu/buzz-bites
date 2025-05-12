@@ -12,7 +12,7 @@ export const getOffsetHeight = (target: string) => {
   return document.querySelector(target)?.getBoundingClientRect().height ?? 0;
 };
 
-export async function smoothScrollTo(scrollTo: string | number | Element, { scrollTarget = window, offset = ".pageheader", duration = 0.8 }: Option = {}) {
+export async function smoothScrollTo(scrollTo: string | number | Element, { scrollTarget = window, offset = ".pageheader", duration = 0.5 }: Option = {}) {
   return gsap.to(scrollTarget, {
     scrollTo: {
       y: scrollTo,
