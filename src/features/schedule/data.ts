@@ -706,12 +706,12 @@ export const schedules: Schedule[] = [
     meals: [
       {
         name: "昼・夕・夜",
-        total: "136g-206g",
+        total: "131g-196g",
         items: [
           {
             name: "炭水化物",
             variants: [
-              { name: "おかゆ", amount: "90g" },
+              { name: "軟飯", amount: "80g" },
               { name: "スープストック", amount: "100g" },
               { name: "蒸しパン", amount: "30g" },
             ],
