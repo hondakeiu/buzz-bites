@@ -52,7 +52,8 @@ export const foods: Category[] = [
       { name: "しめじ", date: "2025-04-13", status: "好き" },
       { name: "アボカド", date: "2025-04-15", status: "好き" },
       { name: "えのき", date: "2025-04-21", status: "好き" },
-      { name: "ひらたけ", date: null, status: null },
+      { name: "ひらたけ", date: "2025-05-12", status: "好き" },
+      { name: "ラディッシュ", date: null, status: null },
     ],
   },
   {
@@ -99,7 +100,9 @@ export const foods: Category[] = [
       { name: "まぐろ", date: "2025-03-10", status: "好き" },
       { name: "さば", date: "2025-04-14", status: "好き" },
       { name: "ぶり", date: "2025-04-22", status: "好き" },
-      { name: "アジ", date: null, status: null },
+      { name: "アジ", date: "2025-05-12", status: "好き" },
+      { name: "さわら", date: null, status: null },
+      { name: "ほたて", date: null, status: null },
     ],
   },
   {
@@ -154,6 +157,9 @@ export const foods: Category[] = [
       { name: "きなこ", date: "2025-01-23", status: "好き" },
       { name: "鰹節", date: "2025-02-17", status: "好き" },
       { name: "コンソメ", date: "2025-02-17", status: "好き" },
+      { name: "ほんだし", date: "2025-05-11", status: "好き" },
+      { name: "砂糖", date: "2025-05-18", status: "好き" },
+      { name: "醤油", date: "2025-05-18", status: "好き" },
     ],
   },
   {
@@ -177,6 +183,7 @@ export const foods: Category[] = [
     items: [
       { name: "片栗粉", date: "2025-01-24", status: "好き" },
       { name: "オリーブオイル", date: "2025-03-17", status: "好き" },
+      { name: "ごま油", date: "2025-05-18", status: "好き" },
     ],
   },
 ];

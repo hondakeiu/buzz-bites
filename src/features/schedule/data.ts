@@ -701,4 +701,59 @@ export const schedules: Schedule[] = [
       [{ name: "卵スープ", amount: "175g", recipe: true }],
     ],
   },
+  {
+    week: "10m0w",
+    meals: [
+      {
+        name: "昼・夕・夜",
+        total: "136g-206g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "おかゆ", amount: "90g" },
+              { name: "スープストック", amount: "100g" },
+              { name: "蒸しパン", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "36g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "鰹節おかゆ", amount: "1440g", recipe: true }],
+      [
+        { name: "小松菜", amount: "72g" },
+        { name: "トマト", amount: "72g" },
+        { name: "にんじん", amount: "72g" },
+        { name: "ブロッコリー", amount: "72g" },
+        { name: "えのき", amount: "72g" },
+        { name: "かぼちゃ", amount: "72g" },
+        { name: "キャベツ", amount: "72g" },
+        { name: "ラディッシュ", amount: "72g" },
+        { name: "キウイ", amount: "70g" },
+      ],
+      [
+        { name: "豚肉", amount: "32g" },
+        { name: "鶏むね肉", amount: "24g" },
+        { name: "さわら", amount: "32g" },
+        { name: "ほたて", amount: "24g" },
+      ],
+      [
+        { name: "豆腐つくね", amount: "40g", recipe: true },
+        { name: "南瓜餅", amount: "20g", recipe: true },
+        { name: "卵スープ", amount: "175g", recipe: true },
+      ],
+    ],
+  },
 ];

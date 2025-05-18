@@ -20,6 +20,8 @@ export const recipes: Category[] = [
       { name: "茶碗蒸し", date: "2025-04-06", status: "好き", ingredients: ["卵", "和風だし"] },
       { name: "湯豆腐", date: "2025-04-11", status: "好き", ingredients: ["豆腐", "和風だし"] },
       { name: "豆腐茶碗蒸し", date: "2025-04-13", status: "好き", ingredients: ["卵", "豆腐", "和風だし"] },
+      { name: "豆腐つくね", date: "2025-05-18", status: "好き", ingredients: ["豆腐", "鶏むね肉", "片栗粉"] },
+      { name: "南瓜餅", date: "2025-05-18", status: "好き", ingredients: ["かぼちゃ", "片栗粉", "砂糖"] },
     ],
   },
   {
