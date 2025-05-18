@@ -147,6 +147,7 @@ export const foods: Category[] = [
       { name: "野菜ジュース", date: "2025-03-15", status: "好き" },
       { name: "イオン飲料", date: "2025-03-17", status: "好き" },
       { name: "ミックスジュース", date: "2025-03-20", status: "好き" },
+      { name: "水", date: "2025-05-16", status: "好き" },
     ],
   },
   {

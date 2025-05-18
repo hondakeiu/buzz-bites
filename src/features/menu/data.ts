@@ -4371,10 +4371,10 @@ export const menus: Menu[] = [
     meals: [
       {
         name: "昼",
-        total: "184g",
+        total: "174g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "トマト", amount: "12g" },
             { name: "ブロッコリー", amount: "12g" },
             { name: "ラディッシュ", amount: "12g" },
@@ -4399,10 +4399,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "179g",
+        total: "169g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "小松菜", amount: "12g" },
             { name: "にんじん", amount: "12g" },
             { name: "えのき", amount: "12g" },
@@ -4421,10 +4421,10 @@ export const menus: Menu[] = [
     meals: [
       {
         name: "昼",
-        total: "184g",
+        total: "174g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "トマト", amount: "12g" },
             { name: "にんじん", amount: "12g" },
             { name: "キャベツ", amount: "12g" },
@@ -4438,10 +4438,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "146g",
+        total: "136g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "小松菜", amount: "12g" },
             { name: "かぼちゃ", amount: "12g" },
             { name: "ラディッシュ", amount: "12g" },
@@ -4451,10 +4451,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "174g",
+        total: "164g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "トマト", amount: "12g" },
             { name: "ブロッコリー", amount: "12g" },
             { name: "えのき", amount: "12g" },
@@ -4471,10 +4471,10 @@ export const menus: Menu[] = [
     meals: [
       {
         name: "昼",
-        total: "184g",
+        total: "174g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "トマト", amount: "12g" },
             { name: "ラディッシュ", amount: "12g" },
             { name: "かぼちゃ", amount: "12g" },
@@ -4499,10 +4499,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "179g",
+        total: "169g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "にんじん", amount: "12g" },
             { name: "キャベツ", amount: "12g" },
             { name: "えのき", amount: "12g" },
@@ -4521,10 +4521,10 @@ export const menus: Menu[] = [
     meals: [
       {
         name: "昼",
-        total: "184g",
+        total: "174g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "小松菜", amount: "12g" },
             { name: "ブロッコリー", amount: "12g" },
             { name: "かぼちゃ", amount: "12g" },
@@ -4549,10 +4549,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "174g",
+        total: "164g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "にんじん", amount: "12g" },
             { name: "キャベツ", amount: "12g" },
             { name: "ラディッシュ", amount: "12g" },
@@ -4569,10 +4569,10 @@ export const menus: Menu[] = [
     meals: [
       {
         name: "昼",
-        total: "184g",
+        total: "174g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "トマト", amount: "12g" },
             { name: "ラディッシュ", amount: "12g" },
             { name: "かぼちゃ", amount: "12g" },
@@ -4586,10 +4586,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "146g",
+        total: "136g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "小松菜", amount: "12g" },
             { name: "キャベツ", amount: "12g" },
             { name: "えのき", amount: "12g" },
@@ -4599,10 +4599,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "179g",
+        total: "169g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "ブロッコリー", amount: "12g" },
             { name: "にんじん", amount: "12g" },
             { name: "キャベツ", amount: "12g" },
@@ -4621,10 +4621,10 @@ export const menus: Menu[] = [
     meals: [
       {
         name: "昼",
-        total: "184g",
+        total: "174g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "小松菜", amount: "12g" },
             { name: "ラディッシュ", amount: "12g" },
             { name: "かぼちゃ", amount: "12g" },
@@ -4649,10 +4649,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "174g",
+        total: "164g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "トマト", amount: "12g" },
             { name: "ブロッコリー", amount: "12g" },
             { name: "えのき", amount: "12g" },
@@ -4669,10 +4669,10 @@ export const menus: Menu[] = [
     meals: [
       {
         name: "昼",
-        total: "184g",
+        total: "174g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "小松菜", amount: "12g" },
             { name: "にんじん", amount: "12g" },
             { name: "えのき", amount: "12g" },
@@ -4697,10 +4697,10 @@ export const menus: Menu[] = [
       },
       {
         name: "夜",
-        total: "179g",
+        total: "169g",
         items: [
           [
-            { name: "鰹節おかゆ", amount: "90g", recipe: true },
+            { name: "鰹節軟飯", amount: "80g", recipe: true },
             { name: "ブロッコリー", amount: "12g" },
             { name: "キャベツ", amount: "12g" },
             { name: "かぼちゃ", amount: "12g" },
