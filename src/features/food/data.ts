@@ -12,6 +12,7 @@ export const foods: Category[] = [
       { name: "麩", date: "2025-02-10", status: "好き" },
       { name: "小麦粉", date: "2025-03-03", status: "好き" },
       { name: "マカロニ", date: "2025-03-17", status: "好き" },
+      { name: "ロールパン", date: "2025-05-20", status: "好き" },
       { name: "スパゲッティ", date: null, status: null },
     ],
   },
@@ -53,7 +54,7 @@ export const foods: Category[] = [
       { name: "アボカド", date: "2025-04-15", status: "好き" },
       { name: "えのき", date: "2025-04-21", status: "好き" },
       { name: "ひらたけ", date: "2025-05-12", status: "好き" },
-      { name: "ラディッシュ", date: null, status: null },
+      { name: "ラディッシュ", date: "2025-05-19", status: "好き" },
     ],
   },
   {
@@ -101,8 +102,8 @@ export const foods: Category[] = [
       { name: "さば", date: "2025-04-14", status: "好き" },
       { name: "ぶり", date: "2025-04-22", status: "好き" },
       { name: "アジ", date: "2025-05-12", status: "好き" },
-      { name: "さわら", date: null, status: null },
-      { name: "ほたて", date: null, status: null },
+      { name: "さわら", date: "2025-05-19", status: "好き" },
+      { name: "ほたて", date: "2025-05-20", status: "好き" },
     ],
   },
   {

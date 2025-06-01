@@ -731,7 +731,10 @@ export const schedules: Schedule[] = [
       },
     ],
     stock: [
-      [{ name: "鰹節軟飯", amount: "1280g", recipe: true }],
+      [
+        { name: "鰹節軟飯", amount: "880g", recipe: true },
+        { name: "軟飯", amount: "400g", recipe: true },
+      ],
       [
         { name: "小松菜", amount: "72g" },
         { name: "トマト", amount: "72g" },
@@ -752,6 +755,109 @@ export const schedules: Schedule[] = [
       [
         { name: "豆腐つくね", amount: "40g", recipe: true },
         { name: "南瓜餅", amount: "20g", recipe: true },
+        { name: "卵スープ", amount: "175g", recipe: true },
+      ],
+    ],
+  },
+  {
+    week: "10m1w",
+    meals: [
+      {
+        name: "昼・夕・夜",
+        total: "131g-196g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "軟飯", amount: "80g" },
+              { name: "スープストック", amount: "100g" },
+              { name: "蒸しパン", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "36g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "軟飯", amount: "1240g", recipe: true }],
+      [
+        { name: "小松菜", amount: "48g" },
+        { name: "トマト", amount: "72g" },
+        { name: "にんじん", amount: "72g" },
+        { name: "ブロッコリー", amount: "72g" },
+        { name: "ひらたけ", amount: "60g" },
+        { name: "かぼちゃ", amount: "72g" },
+        { name: "ピーマン", amount: "60g" },
+        { name: "ズッキーニ", amount: "60g" },
+      ],
+      [
+        { name: "豚肉", amount: "32g" },
+        { name: "鶏むね肉", amount: "24g" },
+        { name: "サーモン", amount: "56g" },
+      ],
+      [
+        { name: "豆腐つくね", amount: "45g", recipe: true },
+        { name: "卵スープ", amount: "175g", recipe: true },
+      ],
+    ],
+  },
+  {
+    week: "10m2w",
+    meals: [
+      {
+        name: "昼・夕・夜",
+        total: "131g-196g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "軟飯", amount: "80g" },
+              { name: "スープストック", amount: "100g" },
+              { name: "蒸しパン", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "36g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "軟飯", amount: "1120g", recipe: true }],
+      [
+        { name: "ほうれん草", amount: "72g" },
+        { name: "トマト", amount: "72g" },
+        { name: "にんじん", amount: "72g" },
+        { name: "ブロッコリー", amount: "72g" },
+        { name: "えのき", amount: "72g" },
+        { name: "かぼちゃ", amount: "72g" },
+        { name: "なす", amount: "72g" },
+      ],
+      [
+        { name: "豚肉", amount: "32g" },
+        { name: "鶏むね肉", amount: "24g" },
+        { name: "鯛", amount: "56g" },
+      ],
+      [
+        { name: "豆腐つくね", amount: "90g", recipe: true },
         { name: "卵スープ", amount: "175g", recipe: true },
       ],
     ],

@@ -76,6 +76,14 @@ export const stages = [
         name: "10m1w",
         start: "2025-05-26",
       },
+      {
+        name: "10m2w",
+        start: "2025-06-02",
+      },
+      {
+        name: "10m3w",
+        start: "2025-06-09",
+      },
     ],
   },
 ];

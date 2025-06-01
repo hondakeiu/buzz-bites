@@ -11,6 +11,7 @@ export const recipes: Category[] = [
       { name: "おこめぼーミルクがゆ", date: "2025-02-22", status: "好き", ingredients: ["おこめぼー", "粉ミルク"] },
       { name: "蒸しパン", date: "2025-04-14", status: "好き", ingredients: ["小麦粉", "牛乳"] },
       { name: "鰹節軟飯", date: "2025-05-19", status: "好き", ingredients: ["お米", "鰹節"] },
+      { name: "軟飯", date: "2025-05-23", status: "好き", ingredients: ["お米"] },
     ],
   },
   {
@@ -91,6 +92,24 @@ export const recipes: Category[] = [
         date: "2025-05-10",
         status: "好き",
         ingredients: ["お米", "さつまいも", "かぶ", "鶏むね肉"],
+      },
+      {
+        name: "キューピー 北海道コーンクリーミィーパスタ",
+        date: null,
+        status: null,
+        ingredients: ["スパゲッティ", "とうもろこし", "にんじん", "玉ねぎ", "鶏むね肉", "牛乳"],
+      },
+      {
+        name: "キューピー たっぷり野菜のナポリタン",
+        date: null,
+        status: null,
+        ingredients: ["スパゲッティ", "玉ねぎ", "にんじん", "トマト", "鶏むね肉"],
+      },
+      {
+        name: "キューピー まぐろと大根のわかめ入りごはん",
+        date: null,
+        status: null,
+        ingredients: ["米", "大根", "にんじん", "まぐろ"],
       },
     ],
   },
