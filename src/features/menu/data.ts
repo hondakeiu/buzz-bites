@@ -5764,13 +5764,14 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "165g",
+        total: "165g+25ml",
         items: [
           [{ name: "キューピー たっぷり野菜のチキンライス", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
           ],
+          [{ name: "麦茶", amount: "25ml" }],
         ],
       },
       {
@@ -6110,7 +6111,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー たっぷり野菜のチキンライス", amount: "130g", recipe: true }],
+          [{ name: "キューピー 鶏五目ごはん", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },

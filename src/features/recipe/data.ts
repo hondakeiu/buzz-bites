@@ -119,9 +119,15 @@ export const recipes: Category[] = [
       },
       {
         name: "キューピー たっぷり野菜のチキンライス",
+        date: "2025-06-15",
+        status: "好き",
+        ingredients: ["お米", "にんじん", "玉ねぎ", "トマト", "鶏むね肉", "鶏レバー"],
+      },
+      {
+        name: "キューピー 鶏五目ごはん",
         date: null,
         status: null,
-        ingredients: ["お米", "にんじん", "玉ねぎ", "トマト", "鶏むね肉"],
+        ingredients: ["お米", "にんじん", "大根", "ごぼう", "鶏むね肉"],
       },
     ],
   },
