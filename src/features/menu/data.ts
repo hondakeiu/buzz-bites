@@ -5688,7 +5688,7 @@ export const menus: Menu[] = [
         items: [[{ name: "ハイハイン", amount: "2", unit: "枚" }]],
       },
     ],
-    memo: ["夜ご飯2口残し"],
+    memo: ["夜 2口残し"],
   },
   {
     date: "2025-06-14",
@@ -5811,17 +5811,19 @@ export const menus: Menu[] = [
             { name: "キウイ", amount: "10g" },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
+          [{ name: "ハイハイン", amount: "2", unit: "枚" }],
         ],
       },
       {
         name: "夕",
-        total: "142g",
+        total: "142g+20ml",
         items: [
           [
             { name: "蒸しパン", amount: "30g", recipe: true },
             { name: "きなこヨーグルト", amount: "70g", recipe: true },
           ],
           [{ name: "バナナ", amount: "42g" }],
+          [{ name: "水", amount: "20ml" }],
         ],
       },
       {
@@ -5839,9 +5841,15 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "20g" },
             { name: "卵スープ", amount: "25g", recipe: true },
           ],
+          [
+            { name: "たまごボーロ", amount: "1", unit: "粒" },
+            { name: "ハイハイン", amount: "2", unit: "枚" },
+            { name: "お米のパンケーキ", amount: "3", unit: "口", recipe: true },
+          ],
         ],
       },
     ],
+    memo: ["夜 2口残し", "たまごボーロを食べたら吐いた"],
   },
   {
     date: "2025-06-17",
@@ -5861,6 +5869,7 @@ export const menus: Menu[] = [
             { name: "キウイ", amount: "10g" },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
+          [{ name: "ハイハイン", amount: "2", unit: "枚" }],
         ],
       },
       {
@@ -5909,6 +5918,7 @@ export const menus: Menu[] = [
             { name: "キウイ", amount: "10g" },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
+          [{ name: "ぶどう", amount: "2", unit: "個" }],
         ],
       },
       {
@@ -5936,6 +5946,15 @@ export const menus: Menu[] = [
           [
             { name: "豆腐", amount: "20g" },
             { name: "卵スープ", amount: "25g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "その他",
+        items: [
+          [
+            { name: "水", amount: "10ml" },
+            { name: "水", amount: "50ml" },
           ],
         ],
       },
