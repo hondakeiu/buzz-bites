@@ -12,7 +12,8 @@ export const recipes: Category[] = [
       { name: "蒸しパン", date: "2025-04-14", status: "好き", ingredients: ["小麦粉", "牛乳"] },
       { name: "鰹節軟飯", date: "2025-05-19", status: "好き", ingredients: ["お米", "鰹節"] },
       { name: "軟飯", date: "2025-05-23", status: "好き", ingredients: ["お米"] },
-      { name: "お米のパンケーキ", date: "2025-06-16", status: "好き", ingredients: ["米粉", "砂糖"] },
+      { name: "お米のパンケーキ", date: "2025-06-16", status: "好き", ingredients: ["米粉", "砂糖", "サラダ油"] },
+      { name: "米粉のパン", date: "2025-06-22", status: "好き", ingredients: ["米粉", "砂糖", "サラダ油"] },
     ],
   },
   {
@@ -126,8 +127,8 @@ export const recipes: Category[] = [
       },
       {
         name: "キューピー 鶏五目ごはん",
-        date: null,
-        status: null,
+        date: "2025-06-21",
+        status: "好き",
         ingredients: ["お米", "にんじん", "大根", "ごぼう", "鶏むね肉"],
       },
     ],

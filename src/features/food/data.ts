@@ -56,7 +56,7 @@ export const foods: Category[] = [
       { name: "えのき", date: "2025-04-21", status: "好き" },
       { name: "ひらたけ", date: "2025-05-12", status: "好き" },
       { name: "ラディッシュ", date: "2025-05-19", status: "好き" },
-      { name: "ごぼう", date: null, status: null },
+      { name: "ごぼう", date: "2025-06-21", status: "好き" },
     ],
   },
   {
@@ -139,6 +139,7 @@ export const foods: Category[] = [
       { name: "粉チーズ", date: "2025-02-25", status: "好き" },
       { name: "牛乳", date: "2025-03-03", status: "好き" },
       { name: "バター", date: "2025-03-03", status: "好き" },
+      { name: "プチダノン", date: "2025-06-19", status: "好き" },
     ],
   },
   {
@@ -190,6 +191,7 @@ export const foods: Category[] = [
       { name: "片栗粉", date: "2025-01-24", status: "好き" },
       { name: "オリーブオイル", date: "2025-03-17", status: "好き" },
       { name: "ごま油", date: "2025-05-18", status: "好き" },
+      { name: "サラダ油", date: "2025-06-16", status: "好き" },
     ],
   },
 ];

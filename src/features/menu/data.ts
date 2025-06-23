@@ -5976,19 +5976,19 @@ export const menus: Menu[] = [
           ],
           [
             { name: "キウイ", amount: "10g" },
-            { name: "きなこヨーグルト", amount: "40g", recipe: true },
+            { name: "プチダノン", amount: "45g" },
           ],
         ],
       },
       {
         name: "夕",
-        total: "165g",
+        total: "150g",
         items: [
-          [{ name: "キューピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
           [
-            { name: "豆腐", amount: "35g" },
-            { name: "醤油", amount: "", unit: "少々" },
+            { name: "お米のパンケーキ", amount: "30g", recipe: true },
+            { name: "きなこヨーグルト", amount: "80g", recipe: true },
           ],
+          [{ name: "メロン", amount: "40g" }],
         ],
       },
       {
@@ -6026,17 +6026,18 @@ export const menus: Menu[] = [
             { name: "キウイ", amount: "10g" },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
+          [{ name: "ハイハイン", amount: "2", unit: "枚" }],
         ],
       },
       {
         name: "夕",
-        total: "142g",
+        total: "165g",
         items: [
+          [{ name: "キューピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
           [
-            { name: "蒸しパン", amount: "30g", recipe: true },
-            { name: "きなこヨーグルト", amount: "70g", recipe: true },
+            { name: "豆腐", amount: "35g" },
+            { name: "醤油", amount: "", unit: "少々" },
           ],
-          [{ name: "バナナ", amount: "42g" }],
         ],
       },
       {
@@ -6055,6 +6056,10 @@ export const menus: Menu[] = [
             { name: "卵スープ", amount: "25g", recipe: true },
           ],
         ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "ハイハイン", amount: "2", unit: "枚" }], [{ name: "メロン", amount: "5", unit: "かけ" }], [{ name: "水", amount: "20ml" }]],
       },
     ],
   },
@@ -6080,13 +6085,13 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "142g",
+        total: "165g",
         items: [
+          [{ name: "キューピー 鶏五目ごはん", amount: "130g", recipe: true }],
           [
-            { name: "蒸しパン", amount: "30g", recipe: true },
-            { name: "きなこヨーグルト", amount: "70g", recipe: true },
+            { name: "豆腐", amount: "35g" },
+            { name: "醤油", amount: "", unit: "少々" },
           ],
-          [{ name: "バナナ", amount: "42g" }],
         ],
       },
       {
@@ -6128,13 +6133,69 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "165g",
+        total: "159g+60ml",
         items: [
-          [{ name: "キューピー 鶏五目ごはん", amount: "130g", recipe: true }],
           [
-            { name: "豆腐", amount: "35g" },
-            { name: "醤油", amount: "", unit: "少々" },
+            { name: "米粉のパン", amount: "37g", recipe: true },
+            { name: "きなこヨーグルト", amount: "80g", recipe: true },
           ],
+          [{ name: "バナナ", amount: "42g" }],
+          [{ name: "麦茶", amount: "60ml" }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "175g+10ml",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "ブロッコリー", amount: "14g" },
+            { name: "ズッキーニ", amount: "14g" },
+            { name: "かぼちゃ", amount: "14g" },
+            { name: "豚肉", amount: "8g" },
+          ],
+          [
+            { name: "豆腐", amount: "20g" },
+            { name: "卵スープ", amount: "25g", recipe: true },
+          ],
+          [{ name: " 麦茶", amount: "10ml" }],
+        ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "麦茶", amount: "10ml" }]],
+      },
+    ],
+  },
+  {
+    date: "2025-06-23",
+    meals: [
+      {
+        name: "昼",
+        total: "180g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "ミニトマト", amount: "14g" },
+            { name: "小松菜", amount: "14g" },
+            { name: "とうもろこし", amount: "14g" },
+            { name: "鶏むね肉", amount: "8g" },
+          ],
+          [
+            { name: "いちご", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "40g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夕",
+        total: "152g",
+        items: [
+          [
+            { name: "お米のパンケーキ", amount: "30g", recipe: true },
+            { name: "きなこヨーグルト", amount: "78g", recipe: true },
+          ],
+          [{ name: "バナナ", amount: "42g" }],
         ],
       },
       {
@@ -6143,10 +6204,10 @@ export const menus: Menu[] = [
         items: [
           [
             { name: "軟飯", amount: "80g", recipe: true },
+            { name: "にんじん", amount: "14g" },
             { name: "ブロッコリー", amount: "14g" },
-            { name: "ズッキーニ", amount: "14g" },
-            { name: "かぼちゃ", amount: "14g" },
-            { name: "豚肉", amount: "8g" },
+            { name: "えのき", amount: "14g" },
+            { name: "たら", amount: "8g" },
           ],
           [
             { name: "豆腐", amount: "20g" },

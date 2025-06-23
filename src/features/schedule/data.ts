@@ -958,4 +958,52 @@ export const schedules: Schedule[] = [
       [{ name: "卵スープ", amount: "175g", recipe: true }],
     ],
   },
+  {
+    week: "11m1w",
+    meals: [
+      {
+        name: "昼・夕・夜",
+        total: "137g-202g",
+        items: [
+          {
+            name: "炭水化物",
+            variants: [
+              { name: "軟飯", amount: "80g" },
+              { name: "キューピー", amount: "130g" },
+              { name: "パンケーキ", amount: "30g" },
+            ],
+          },
+          { name: "野菜・果物", amount: "42g" },
+          {
+            name: "たんぱく質",
+            variants: [
+              { name: "肉", amount: "15g" },
+              { name: "魚", amount: "15g" },
+              { name: "豆", amount: "45g" },
+              { name: "卵", amount: "30g" },
+              { name: "乳", amount: "80g" },
+            ],
+          },
+        ],
+      },
+    ],
+    stock: [
+      [{ name: "軟飯", amount: "1120g", recipe: true }],
+      [
+        { name: "小松菜", amount: "84g" },
+        { name: "ミニトマト", amount: "84g" },
+        { name: "にんじん", amount: "84g" },
+        { name: "ブロッコリー", amount: "84g" },
+        { name: "しめじ", amount: "84g" },
+        { name: "かぼちゃ", amount: "84g" },
+        { name: "とうもろこし", amount: "84g" },
+      ],
+      [
+        { name: "豚肉", amount: "32g" },
+        { name: "鶏むね肉", amount: "24g" },
+        { name: "たら", amount: "56g" },
+      ],
+      [{ name: "卵スープ", amount: "175g", recipe: true }],
+    ],
+  },
 ];
