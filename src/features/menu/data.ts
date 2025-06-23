@@ -6179,7 +6179,7 @@ export const menus: Menu[] = [
             { name: "ミニトマト", amount: "14g" },
             { name: "小松菜", amount: "14g" },
             { name: "とうもろこし", amount: "14g" },
-            { name: "鶏むね肉", amount: "8g" },
+            { name: "豚肉", amount: "8g" },
           ],
           [
             { name: "いちご", amount: "10g" },
