@@ -3625,7 +3625,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
           [{ name: "おこめぼー赤", amount: "1", unit: "本" }],
@@ -3676,7 +3676,7 @@ export const menus: Menu[] = [
             { name: "サーモン", amount: "8g" },
           ],
           [
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
           [{ name: "麦茶", amount: "30ml" }],
@@ -3691,8 +3691,8 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "35g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
           ],
         ],
       },
@@ -3729,7 +3729,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -3781,7 +3781,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -3833,7 +3833,7 @@ export const menus: Menu[] = [
             { name: "サーモン", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
           [{ name: "おこめぼー赤", amount: "1", unit: "本" }],
@@ -3848,8 +3848,8 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "35g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
           ],
           [{ name: "おこめぼー赤", amount: "1", unit: "本" }],
         ],
@@ -3889,7 +3889,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -3903,8 +3903,8 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "35g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
           ],
         ],
       },
@@ -3940,7 +3940,7 @@ export const menus: Menu[] = [
             { name: "サーモン", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -3971,7 +3971,7 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "20g" },
             { name: "卵スープ", amount: "25g", recipe: true },
           ],
-          [{ name: "キューピー ミックスフルーツ", amount: "10g", recipe: true }],
+          [{ name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true }],
         ],
       },
     ],
@@ -3991,7 +3991,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -4041,7 +4041,7 @@ export const menus: Menu[] = [
             { name: "たら", amount: "8g" },
           ],
           [
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -4055,8 +4055,8 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "35g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
           ],
         ],
       },
@@ -4094,7 +4094,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -4144,7 +4144,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -4158,8 +4158,8 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "35g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
           ],
           [{ name: "ハイハイン", amount: "1", unit: "枚" }],
         ],
@@ -4209,7 +4209,7 @@ export const menus: Menu[] = [
             { name: "アジ", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
           [{ name: "おこめぼー赤", amount: "1", unit: "本" }],
@@ -4274,7 +4274,7 @@ export const menus: Menu[] = [
             { name: "鶏むね肉", amount: "8g" },
           ],
           [
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -4288,8 +4288,8 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "35g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
-            { name: "キューピー ミックスフルーツ", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー ミックスフルーツ", amount: "10g", recipe: true },
           ],
         ],
       },
@@ -4327,7 +4327,7 @@ export const menus: Menu[] = [
             { name: "アジ", amount: "8g" },
           ],
           [
-            { name: "キューピー 国産ももとりんご", amount: "10g", recipe: true },
+            { name: "キユーピー 国産ももとりんご", amount: "10g", recipe: true },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
         ],
@@ -5174,7 +5174,7 @@ export const menus: Menu[] = [
       {
         name: "夕",
         total: "160g",
-        items: [[{ name: "キューピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }], [{ name: "豆腐つくね", amount: "30g", recipe: true }]],
+        items: [[{ name: "キユーピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }], [{ name: "豆腐つくね", amount: "30g", recipe: true }]],
       },
       {
         name: "夜",
@@ -5271,7 +5271,7 @@ export const menus: Menu[] = [
       {
         name: "夕",
         total: "130g",
-        items: [[{ name: "キューピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }]],
+        items: [[{ name: "キユーピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }]],
       },
       {
         name: "夜",
@@ -5423,7 +5423,7 @@ export const menus: Menu[] = [
       {
         name: "夕",
         total: "160g",
-        items: [[{ name: "キューピー まぐろと大根のわかめ入りごはん", amount: "130g", recipe: true }], [{ name: "豆腐つくね", amount: "30g", recipe: true }]],
+        items: [[{ name: "キユーピー まぐろと大根のわかめ入りごはん", amount: "130g", recipe: true }], [{ name: "豆腐つくね", amount: "30g", recipe: true }]],
       },
       {
         name: "夜",
@@ -5518,7 +5518,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }],
+          [{ name: "キユーピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -5609,7 +5609,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
+          [{ name: "キユーピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -5766,7 +5766,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g+25ml",
         items: [
-          [{ name: "キューピー たっぷり野菜のチキンライス", amount: "130g", recipe: true }],
+          [{ name: "キユーピー たっぷり野菜のチキンライス", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -5876,7 +5876,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }],
+          [{ name: "キユーピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -6033,7 +6033,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
+          [{ name: "キユーピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -6087,7 +6087,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー 鶏五目ごはん", amount: "130g", recipe: true }],
+          [{ name: "キユーピー 鶏五目ごはん", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -6214,7 +6214,7 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "20g" },
             { name: "卵スープ", amount: "25g", recipe: true },
           ],
-          [{ name: "味噌汁", amount: "2", unit: "口" }],
+          [{ name: "味噌汁", amount: "2", unit: "口", recipe: true }],
         ],
       },
       {
@@ -6247,7 +6247,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }],
+          [{ name: "キユーピー 北海道コーンクリーミィーパスタ", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -6269,7 +6269,12 @@ export const menus: Menu[] = [
           [{ name: "卵スープ", amount: "25g", recipe: true }],
         ],
       },
+      {
+        name: "その他",
+        items: [[{ name: "ハイハイン", amount: "2", unit: "枚" }]],
+      },
     ],
+    memo: ["ヨーグルト 2口残し"],
   },
   {
     date: "2025-06-25",
@@ -6289,7 +6294,6 @@ export const menus: Menu[] = [
             { name: "いちご", amount: "10g" },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
-          [{ name: "ぶどう", amount: "2", unit: "個" }],
         ],
       },
       {
@@ -6318,7 +6322,12 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "20g" },
             { name: "卵スープ", amount: "25g", recipe: true },
           ],
+          [{ name: "ハイハイン", amount: "3", unit: "枚" }],
         ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "水", amount: "30ml" }]],
       },
     ],
   },
@@ -6346,7 +6355,7 @@ export const menus: Menu[] = [
         name: "夕",
         total: "165g",
         items: [
-          [{ name: "キューピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
+          [{ name: "キユーピー たっぷり野菜のナポリタン", amount: "130g", recipe: true }],
           [
             { name: "豆腐", amount: "35g" },
             { name: "醤油", amount: "", unit: "少々" },
@@ -6366,6 +6375,7 @@ export const menus: Menu[] = [
             { name: "納豆", amount: "15g" },
           ],
           [{ name: "卵スープ", amount: "25g", recipe: true }],
+          [{ name: "ハイハイン", amount: "1", unit: "枚" }],
         ],
       },
     ],
@@ -6392,13 +6402,15 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "152g",
+        total: "162g",
         items: [
           [{ name: "お米のパンケーキ", amount: "30g", recipe: true }],
           [
-            { name: "バナナ", amount: "42g" },
+            { name: "メロン", amount: "42g" },
+            { name: "アメリカンチェリー", amount: "10g" },
             { name: "きなこヨーグルト", amount: "80g", recipe: true },
           ],
+          [{ name: "ハイハイン", amount: "2", unit: "枚" }],
         ],
       },
       {
@@ -6416,7 +6428,12 @@ export const menus: Menu[] = [
             { name: "豆腐", amount: "20g" },
             { name: "卵スープ", amount: "25g", recipe: true },
           ],
+          [{ name: "メロン", amount: "2", unit: "かけ" }],
         ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "水", amount: "15ml" }], [{ name: "アメリカンチェリー", amount: "1", unit: "個" }]],
       },
     ],
   },
@@ -6438,17 +6455,18 @@ export const menus: Menu[] = [
             { name: "いちご", amount: "10g" },
             { name: "きなこヨーグルト", amount: "40g", recipe: true },
           ],
+          [{ name: "メロン", amount: "1", unit: "かけ" }],
         ],
       },
       {
         name: "夕",
-        total: "165g",
+        total: "142g",
         items: [
-          [{ name: "キューピー まぐろと大根のわかめ入りごはん", amount: "130g", recipe: true }],
           [
-            { name: "豆腐", amount: "35g" },
-            { name: "醤油", amount: "", unit: "少々" },
+            { name: "蒸しパン", amount: "30g", recipe: true },
+            { name: "きなこヨーグルト", amount: "70g", recipe: true },
           ],
+          [{ name: "バナナ", amount: "42g" }],
         ],
       },
       {
@@ -6464,6 +6482,7 @@ export const menus: Menu[] = [
             { name: "納豆", amount: "15g" },
           ],
           [{ name: "卵スープ", amount: "25g", recipe: true }],
+          [{ name: "ハイハイン", amount: "1", unit: "枚" }],
         ],
       },
     ],
@@ -6490,12 +6509,12 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "152g",
+        total: "165g",
         items: [
-          [{ name: "お米のパンケーキ", amount: "30g", recipe: true }],
+          [{ name: "キユーピー まぐろと大根のわかめ入りごはん", amount: "130g", recipe: true }],
           [
-            { name: "バナナ", amount: "42g" },
-            { name: "きなこヨーグルト", amount: "80g", recipe: true },
+            { name: "豆腐", amount: "35g" },
+            { name: "醤油", amount: "", unit: "少々" },
           ],
         ],
       },
@@ -6509,6 +6528,50 @@ export const menus: Menu[] = [
             { name: "とうもろこし", amount: "14g" },
             { name: "かぼちゃ", amount: "14g" },
             { name: "豚肉", amount: "8g" },
+          ],
+          [
+            { name: "豆腐", amount: "20g" },
+            { name: "卵スープ", amount: "25g", recipe: true },
+          ],
+        ],
+      },
+    ],
+  },
+  {
+    date: "2025-07-07",
+    meals: [
+      {
+        name: "昼",
+        total: "180g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "トマト", amount: "14g" },
+            { name: "小松菜", amount: "14g" },
+            { name: "ズッキーニ", amount: "14g" },
+            { name: "豚肉", amount: "8g" },
+          ],
+          [
+            { name: "すもも", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "40g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夕",
+        total: "145g",
+        items: [[{ name: "卵うどん", amount: "100g", recipe: true }], [{ name: "トマトと砂糖", amount: "45g", recipe: true }]],
+      },
+      {
+        name: "夜",
+        total: "175g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "にんじん", amount: "14g" },
+            { name: "ブロッコリー", amount: "14g" },
+            { name: "しめじ", amount: "14g" },
+            { name: "ほたて", amount: "8g" },
           ],
           [
             { name: "豆腐", amount: "20g" },

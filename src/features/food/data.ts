@@ -15,6 +15,9 @@ export const foods: Category[] = [
       { name: "ロールパン", date: "2025-05-20", status: "好き" },
       { name: "スパゲッティ", date: "2025-06-03", status: "好き" },
       { name: "米粉", date: "2025-06-16", status: "好き" },
+      { name: "玄米", date: "2025-07-01", status: "好き" },
+      { name: "塩パン", date: "2025-07-02", status: "好き" },
+      { name: "バゲット", date: "2025-07-03", status: "好き" },
     ],
   },
   {
@@ -76,7 +79,8 @@ export const foods: Category[] = [
       { name: "キウイ", date: "2025-04-20", status: "好き" },
       { name: "スイカ", date: "2025-04-26", status: "好き" },
       { name: "メロン", date: "2025-04-30", status: "好き" },
-      { name: "柿", date: null, status: null },
+      { name: "アメリカンチェリー", date: "2025-06-27", status: "好き" },
+      { name: "すもも", date: "2025-07-06", status: "好き" },
     ],
   },
   {
@@ -108,6 +112,7 @@ export const foods: Category[] = [
       { name: "さわら", date: "2025-05-19", status: "好き" },
       { name: "ほたて", date: "2025-05-20", status: "好き" },
       { name: "ツナ（まぐろ油漬）", date: "2025-06-16", status: "好き" },
+      { name: "めかじき", date: "2025-06-30", status: "好き" },
     ],
   },
   {
@@ -168,6 +173,7 @@ export const foods: Category[] = [
       { name: "砂糖", date: "2025-05-18", status: "好き" },
       { name: "醤油", date: "2025-05-18", status: "好き" },
       { name: "赤味噌", date: "2025-06-23", status: "好き" },
+      { name: "うどんスープ", date: "2025-07-02", status: "好き" },
     ],
   },
   {

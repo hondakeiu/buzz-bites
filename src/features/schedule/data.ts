@@ -640,8 +640,8 @@ export const schedules: Schedule[] = [
         { name: "カリフラワーミックス", amount: "70g" },
         { name: "かぼちゃ", amount: "70g" },
         { name: "アボカド", amount: "70g" },
-        { name: "キューピー 国産ももとりんご", amount: "70g", recipe: true },
-        { name: "キューピー ミックスフルーツ", amount: "60g", recipe: true },
+        { name: "キユーピー 国産ももとりんご", amount: "70g", recipe: true },
+        { name: "キユーピー ミックスフルーツ", amount: "60g", recipe: true },
       ],
       [
         { name: "鶏むね肉", amount: "56g" },
@@ -690,8 +690,8 @@ export const schedules: Schedule[] = [
         { name: "かぼちゃ", amount: "60g" },
         { name: "オクラ", amount: "30g" },
         { name: "アボカド", amount: "30g" },
-        { name: "キューピー 国産ももとりんご", amount: "70g", recipe: true },
-        { name: "キューピー ミックスフルーツ", amount: "60g", recipe: true },
+        { name: "キユーピー 国産ももとりんご", amount: "70g", recipe: true },
+        { name: "キユーピー ミックスフルーツ", amount: "60g", recipe: true },
       ],
       [
         { name: "鶏むね肉", amount: "56g" },
@@ -822,7 +822,7 @@ export const schedules: Schedule[] = [
             name: "炭水化物",
             variants: [
               { name: "軟飯", amount: "80g" },
-              { name: "キューピー", amount: "130g" },
+              { name: "キユーピー", amount: "130g" },
               { name: "蒸しパン", amount: "30g" },
             ],
           },
@@ -873,7 +873,7 @@ export const schedules: Schedule[] = [
             name: "炭水化物",
             variants: [
               { name: "軟飯", amount: "80g" },
-              { name: "キューピー", amount: "130g" },
+              { name: "キユーピー", amount: "130g" },
               { name: "蒸しパン", amount: "30g" },
             ],
           },
@@ -921,7 +921,7 @@ export const schedules: Schedule[] = [
             name: "炭水化物",
             variants: [
               { name: "軟飯", amount: "80g" },
-              { name: "キューピー", amount: "130g" },
+              { name: "キユーピー", amount: "130g" },
               { name: "蒸しパン", amount: "30g" },
             ],
           },
@@ -969,7 +969,7 @@ export const schedules: Schedule[] = [
             name: "炭水化物",
             variants: [
               { name: "軟飯", amount: "80g" },
-              { name: "キューピー", amount: "130g" },
+              { name: "キユーピー", amount: "130g" },
               { name: "パンケーキ", amount: "30g" },
             ],
           },
