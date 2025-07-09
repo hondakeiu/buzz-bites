@@ -6559,8 +6559,8 @@ export const menus: Menu[] = [
       },
       {
         name: "夕",
-        total: "145g",
-        items: [[{ name: "卵うどん", amount: "100g", recipe: true }], [{ name: "トマトと砂糖", amount: "45g", recipe: true }]],
+        total: "160g",
+        items: [[{ name: "トマト卵うどん", amount: "150g", recipe: true }], [{ name: "茶碗蒸し", amount: "15g", recipe: true }], [{ name: "塩パン", amount: "2/3", unit: "切れ" }]],
       },
       {
         name: "夜",
@@ -6572,6 +6572,122 @@ export const menus: Menu[] = [
             { name: "ブロッコリー", amount: "14g" },
             { name: "しめじ", amount: "14g" },
             { name: "ほたて", amount: "8g" },
+          ],
+          [
+            { name: "豆腐", amount: "20g" },
+            { name: "卵スープ", amount: "25g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "塩パン", amount: "7", unit: "口" }]],
+      },
+    ],
+  },
+  {
+    date: "2025-07-08",
+    meals: [
+      {
+        name: "昼",
+        total: "180g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "トマト", amount: "14g" },
+            { name: "にんじん", amount: "14g" },
+            { name: "しめじ", amount: "14g" },
+            { name: "たら", amount: "8g" },
+          ],
+          [
+            { name: "すもも", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "40g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夕",
+        total: "190g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "ピジョン 鮭と香味野菜のボルシチ風", amount: "100g", recipe: true },
+          ],
+          [{ name: "チーズ", amount: "10g" }],
+        ],
+      },
+      {
+        name: "夜",
+        total: "170g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "小松菜", amount: "14g" },
+            { name: "ブロッコリー", amount: "14g" },
+            { name: "かぼちゃ", amount: "14g" },
+            { name: "豚肉", amount: "8g" },
+            { name: "納豆", amount: "15g" },
+          ],
+          [{ name: "卵スープ", amount: "25g", recipe: true }],
+        ],
+      },
+      {
+        name: "その他",
+        items: [[{ name: "野菜ジュース", amount: "15ml" }]],
+      },
+    ],
+  },
+  {
+    date: "2025-07-09",
+    meals: [
+      {
+        name: "朝",
+        total: "55g+5ml",
+        items: [
+          [
+            { name: "トマトと砂糖", amount: "55g", recipe: true },
+            { name: "水", amount: "5ml" },
+          ],
+        ],
+      },
+      {
+        name: "昼",
+        total: "180g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "トマト", amount: "14g" },
+            { name: "しめじ", amount: "14g" },
+            { name: "かぼちゃ", amount: "14g" },
+            { name: "ほたて", amount: "8g" },
+          ],
+          [
+            { name: "すもも", amount: "10g" },
+            { name: "きなこヨーグルト", amount: "40g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夕",
+        total: "142g",
+        items: [
+          [{ name: "米粉のソフトクッキー", amount: "30g", recipe: true }],
+          [
+            { name: "バナナ", amount: "42g" },
+            { name: "きなこヨーグルト", amount: "70g", recipe: true },
+          ],
+        ],
+      },
+      {
+        name: "夜",
+        total: "175g",
+        items: [
+          [
+            { name: "軟飯", amount: "80g", recipe: true },
+            { name: "小松菜", amount: "14g" },
+            { name: "にんじん", amount: "14g" },
+            { name: "ズッキーニ", amount: "14g" },
+            { name: "豚肉", amount: "8g" },
           ],
           [
             { name: "豆腐", amount: "20g" },

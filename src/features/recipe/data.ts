@@ -19,6 +19,7 @@ export const recipes: Category[] = [
       { name: "卵うどん", date: "2025-07-04", status: "好き", ingredients: ["うどん", "卵", "うどんスープ"] },
       { name: "うな重のご飯", date: "2025-07-04", status: "好き", ingredients: ["お米", "醤油", "砂糖"] },
       { name: "米粉のソフトクッキー", date: "2025-07-06", status: "好き", ingredients: ["米粉", "砂糖", "牛乳"] },
+      { name: "トマト卵うどん", date: "2025-07-07", status: "好き", ingredients: ["うどん", "トマト", "卵", "うどんスープ"] },
     ],
   },
   {
@@ -155,6 +156,12 @@ export const recipes: Category[] = [
         date: "2025-07-05",
         status: "好き",
         ingredients: ["玄米", "にんじん", "玉ねぎ", "ごぼう", "まぐろ"],
+      },
+      {
+        name: "ピジョン 鮭と香味野菜のボルシチ風",
+        date: "2025-07-08",
+        status: "好き",
+        ingredients: ["じゃがいも", "玉ねぎ", "にんじん", "とうもろこし", "枝豆", "トマト", "サーモン"],
       },
     ],
   },
